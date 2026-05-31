@@ -1,0 +1,47 @@
+export const caseStudies = [
+  {
+    id: 1,
+    client: "TechVenture Inc.",
+    industry: "SaaS / Technology",
+    service: "Instagram Growth + SEO",
+    challenge: "Zero social presence, no organic traffic, launching into a competitive market.",
+    result: "Grew Instagram to 85K followers, ranked #1 for 23 target keywords, 312% traffic increase.",
+    metrics: [
+      { label: "Instagram Followers", before: "2K", after: "85K", change: "+4,150%" },
+      { label: "Organic Traffic", before: "1.2K/mo", after: "4.9K/mo", change: "+312%" },
+      { label: "Revenue Impact", before: "$45K/mo", after: "$180K/mo", change: "+300%" },
+    ],
+    duration: "6 months",
+    color: "#FF3EA5",
+  },
+  {
+    id: 2,
+    client: "LuxeStyle Co.",
+    industry: "Fashion & Lifestyle",
+    service: "YouTube Growth + Content Strategy",
+    challenge: "Struggling YouTube channel with low engagement and no clear content direction.",
+    result: "Hit Silver Play Button (100K subscribers), 2.1M monthly views, brand partnerships secured.",
+    metrics: [
+      { label: "YouTube Subscribers", before: "8K", after: "100K", change: "+1,150%" },
+      { label: "Monthly Views", before: "45K", after: "2.1M", change: "+4,567%" },
+      { label: "Brand Deals", before: "0", after: "12/year", change: "+∞" },
+    ],
+    duration: "8 months",
+    color: "#FF6B00",
+  },
+  {
+    id: 3,
+    client: "NexaGrowth",
+    industry: "FinTech",
+    service: "Press Release + LinkedIn Growth",
+    challenge: "Unknown brand in a crowded fintech space, needed credibility and investor attention.",
+    result: "Featured in 200+ publications including Forbes, raised Series A funding, LinkedIn grew to 45K.",
+    metrics: [
+      { label: "Media Publications", before: "0", after: "200+", change: "+∞" },
+      { label: "LinkedIn Followers", before: "1.2K", after: "45K", change: "+3,650%" },
+      { label: "Funding Raised", before: "$0", after: "$4.2M", change: "Series A" },
+    ],
+    duration: "4 months",
+    color: "#00A3FF",
+  },
+];

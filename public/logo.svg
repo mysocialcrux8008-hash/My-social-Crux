@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 120" width="320" height="120">
+  <!-- "my" script text in blue -->
+  <text x="8" y="38" font-family="Georgia, 'Times New Roman', serif" font-size="32" font-style="italic" font-weight="700" fill="#5B6CF6" letter-spacing="-1">my</text>
+
+  <!-- "SOCIAL" bold dark -->
+  <text x="6" y="78" font-family="Arial Black, Arial, sans-serif" font-size="40" font-weight="900" fill="#1A1A2E" letter-spacing="-1">SOCIAL</text>
+
+  <!-- "CRUX" bold dark -->
+  <text x="6" y="118" font-family="Arial Black, Arial, sans-serif" font-size="40" font-weight="900" fill="#1A1A2E" letter-spacing="-1">CRUX</text>
+
+  <!-- Person icon - head circle -->
+  <circle cx="268" cy="22" r="16" fill="#5B6CF6"/>
+
+  <!-- Person icon - body semicircle (blue) -->
+  <path d="M238 58 Q238 38 268 38 Q298 38 298 58 Z" fill="#5B6CF6"/>
+
+  <!-- Green semicircle -->
+  <path d="M242 72 Q242 58 268 58 Q294 58 294 72 Z" fill="#2ECC9A"/>
+
+  <!-- Purple semicircle -->
+  <path d="M246 84 Q246 72 268 72 Q290 72 290 84 Z" fill="#9B6FD4"/>
+</svg>
