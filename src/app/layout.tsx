@@ -6,19 +6,31 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = {
   title: {
-    default: "MySocialCrux | Premium Digital Marketing Agency USA",
+    default: "MySocialCrux | Premium Digital Marketing Agency | Meilleure Promotions Services Pvt Ltd",
     template: "%s | MySocialCrux",
   },
   description:
-    "MySocialCrux is a premium digital marketing agency helping brands scale on Instagram, YouTube, LinkedIn, and beyond. SEO, social media growth, press releases, and more.",
-  keywords: ["digital marketing agency", "social media growth", "Instagram growth", "SEO services", "YouTube growth"],
+    "MySocialCrux is a premium digital marketing agency operated by Meilleure Promotions Services Private Limited. We help brands scale on Instagram, YouTube, LinkedIn, and beyond with SEO, social media growth, press releases, and more.",
+  keywords: [
+    "digital marketing agency India",
+    "social media growth",
+    "Instagram growth services",
+    "SEO services Jaipur",
+    "YouTube growth",
+    "press release services",
+    "MySocialCrux",
+    "Meilleure Promotions Services",
+  ],
+  authors: [{ name: "Meilleure Promotions Services Private Limited" }],
+  creator: "MySocialCrux — Meilleure Promotions Services Private Limited",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://mysocialcrux.com",
     siteName: "MySocialCrux",
-    title: "MySocialCrux | Premium Digital Marketing Agency USA",
-    description: "Scale your brand with MySocialCrux — trusted by 500+ brands worldwide.",
+    title: "MySocialCrux | Premium Digital Marketing Agency",
+    description:
+      "Scale your brand with MySocialCrux — operated by Meilleure Promotions Services Private Limited. Trusted by 500+ brands worldwide.",
   },
   twitter: {
     card: "summary_large_image",
@@ -32,6 +44,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
@@ -39,7 +52,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           rel="stylesheet"
         />
       </head>
-      <body style={{ background: "#000000", color: "#FFFFFF", fontFamily: "'Inter', sans-serif", overflowX: "hidden" }}>
+      <body style={{ background: "#000000", color: "#FFFFFF", fontFamily: "'Inter', sans-serif", overflowX: "hidden", maxWidth: "100vw" }}>
         <Navbar />
         <main>{children}</main>
         <Footer />

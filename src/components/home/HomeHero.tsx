@@ -24,8 +24,8 @@ export default function HomeHero() {
         <div className="grid-pattern" style={{ position:"absolute", inset:0, opacity:0.15 }} />
       </div>
 
-      <div style={{ position:"relative", maxWidth:"1280px", margin:"0 auto", padding:"80px 32px", width:"100%" }}>
-        <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr", gap:"60px", alignItems:"center" }} className="hero-main-grid">
+      <div style={{ position:"relative", maxWidth:"1280px", margin:"0 auto", padding:"80px 20px", width:"100%" }}>
+        <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr", gap:"56px", alignItems:"center" }} className="hero-main-grid">
 
           {/* LEFT — Text */}
           <div>
@@ -35,7 +35,7 @@ export default function HomeHero() {
             </motion.p>
 
             <motion.h1 initial={{ opacity:0, y:30 }} animate={{ opacity:1, y:0 }} transition={{ duration:0.7, delay:0.1 }}
-              style={{ fontFamily:"'Sora',sans-serif", fontSize:"clamp(52px,7vw,96px)", fontWeight:900, color:"#FFFFFF", lineHeight:0.95, letterSpacing:"-0.03em", marginBottom:"28px" }}>
+              style={{ fontFamily:"'Sora',sans-serif", fontSize:"clamp(38px,8vw,96px)", fontWeight:900, color:"#FFFFFF", lineHeight:0.95, letterSpacing:"-0.03em", marginBottom:"28px", wordBreak:"break-word" }}>
               GROW<br />
               <span style={{ background:"linear-gradient(135deg,#FF3EA5,#FF6B00)", WebkitBackgroundClip:"text", WebkitTextFillColor:"transparent", backgroundClip:"text" }}>BIGGER.</span><br />
               WIN MORE.

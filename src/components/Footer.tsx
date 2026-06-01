@@ -44,13 +44,17 @@ export default function Footer() {
           <div>
             <Link href="/" style={{ display: "flex", alignItems: "center", textDecoration: "none", marginBottom: "20px" }}>
               <img
-                src="/logo-white.svg"
+                src="/logo.png"
                 alt="MySocialCrux"
                 style={{ height: "52px", width: "auto", display: "block" }}
               />
             </Link>
-            <p style={{ color: "#9CA3AF", fontSize: "14px", lineHeight: 1.7, marginBottom: "24px", maxWidth: "280px" }}>
+            <p style={{ color: "#9CA3AF", fontSize: "14px", lineHeight: 1.7, marginBottom: "8px", maxWidth: "280px" }}>
               A premium digital marketing agency helping ambitious brands scale their social presence, dominate search rankings, and drive real revenue growth.
+            </p>
+            <p style={{ color: "#6B7280", fontSize: "11px", lineHeight: 1.6, marginBottom: "24px", maxWidth: "280px" }}>
+              Owned &amp; operated by<br />
+              <span style={{ color: "#9CA3AF", fontWeight: 600 }}>MEILLEURE PROMOTIONS SERVICES PRIVATE LIMITED</span>
             </p>
             <div style={{ display: "flex", flexDirection: "column", gap: "10px", marginBottom: "24px" }}>
               {[
@@ -97,41 +101,7 @@ export default function Footer() {
           ))}
         </div>
 
-        {/* Newsletter */}
-        <div style={{
-          marginTop: "56px", paddingTop: "40px",
-          borderTop: "1px solid rgba(255,255,255,0.08)",
-          display: "flex", alignItems: "center", justifyContent: "space-between",
-          flexWrap: "wrap", gap: "24px",
-        }}>
-          <div>
-            <h4 style={{ fontFamily: "'Sora', sans-serif", color: "#FFFFFF", fontWeight: 700, fontSize: "17px", marginBottom: "4px" }}>
-              Fuel Your Growth Mindset
-            </h4>
-            <p style={{ color: "#9CA3AF", fontSize: "13px" }}>
-              Weekly insights on digital marketing, growth hacks, and industry trends.
-            </p>
-          </div>
-          <div style={{ display: "flex", gap: "10px" }}>
-            <input
-              type="email"
-              placeholder="Enter your email"
-              style={{
-                padding: "12px 18px", borderRadius: "10px",
-                background: "rgba(255,255,255,0.05)", border: "1px solid rgba(255,255,255,0.1)",
-                color: "#FFFFFF", fontSize: "13px", outline: "none", width: "240px",
-              }}
-            />
-            <button style={{
-              padding: "12px 22px", borderRadius: "10px",
-              background: "linear-gradient(135deg, #FF3EA5, #FF6B00)",
-              color: "#FFFFFF", fontWeight: 600, fontSize: "13px",
-              border: "none", cursor: "pointer", whiteSpace: "nowrap",
-            }}>
-              Subscribe
-            </button>
-          </div>
-        </div>
+        {/* Newsletter removed */}
       </div>
 
       {/* Bottom bar */}
@@ -139,11 +109,16 @@ export default function Footer() {
         <div style={{
           maxWidth: "1280px", margin: "0 auto", padding: "18px 32px",
           display: "flex", alignItems: "center", justifyContent: "space-between",
-          flexWrap: "wrap", gap: "12px",
+          flexWrap: "wrap", gap: "8px",
         }}>
-          <p style={{ color: "#6B7280", fontSize: "12px" }}>
-            © {new Date().getFullYear()} MySocialCrux LLC. All rights reserved.
-          </p>
+          <div>
+            <p style={{ color: "#6B7280", fontSize: "12px", marginBottom: "2px" }}>
+              © 2026 MEILLEURE PROMOTIONS SERVICES PRIVATE LIMITED. All Rights Reserved.
+            </p>
+            <p style={{ color: "#4B5563", fontSize: "11px" }}>
+              MySocialCrux is a brand operated by MEILLEURE PROMOTIONS SERVICES PRIVATE LIMITED
+            </p>
+          </div>
           <div style={{ display: "flex", gap: "24px" }}>
             {["Privacy Policy", "Terms of Use", "Cookie Policy"].map((item) => (
               <Link key={item} href="#" style={{ color: "#6B7280", fontSize: "12px", textDecoration: "none" }}>

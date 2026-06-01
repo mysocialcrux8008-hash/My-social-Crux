@@ -16,18 +16,20 @@ export default function ServicesHero() {
       <div style={{ position:"relative", maxWidth:"1280px", margin:"0 auto", padding:"80px 32px", width:"100%" }}>
         <div style={{ maxWidth:"760px" }}>
           <motion.div initial={{ opacity:0, y:16 }} animate={{ opacity:1, y:0 }}
-            style={{ display:"inline-flex", alignItems:"center", gap:"8px", padding:"7px 16px", borderRadius:"999px", background:"rgba(0,163,255,0.12)", border:"1px solid rgba(0,163,255,0.3)", color:"#00A3FF", fontSize:"11px", fontWeight:700, textTransform:"uppercase", letterSpacing:"0.12em", marginBottom:"28px" }}>
+            style={{ display:"inline-flex", alignItems:"center", gap:"8px", padding:"7px 16px", borderRadius:"999px", background:"rgba(0,163,255,0.12)", border:"1px solid rgba(0,163,255,0.3)", color:"#00A3FF", fontSize:"11px", fontWeight:700, textTransform:"uppercase", letterSpacing:"0.12em", marginBottom:"24px" }}>
             <span style={{ width:"7px", height:"7px", borderRadius:"50%", background:"#00A3FF", display:"inline-block" }} />
-            15+ Premium Services
+            Our Services
           </motion.div>
           <motion.h1 initial={{ opacity:0, y:30 }} animate={{ opacity:1, y:0 }} transition={{ delay:0.1 }}
-            style={{ fontFamily:"'Sora',sans-serif", fontSize:"clamp(44px,6vw,84px)", fontWeight:900, color:"#FFFFFF", lineHeight:0.97, letterSpacing:"-0.03em", marginBottom:"28px" }}>
-            EVERY TOOL<br />YOU NEED TO<br />
-            <span style={{ background:"linear-gradient(135deg,#00A3FF,#8B5CF6)", WebkitBackgroundClip:"text", WebkitTextFillColor:"transparent", backgroundClip:"text" }}>DOMINATE.</span>
+            style={{ fontFamily:"'Sora',sans-serif", fontSize:"clamp(42px,6vw,84px)", fontWeight:900, color:"#FFFFFF", lineHeight:0.97, letterSpacing:"-0.03em", marginBottom:"24px" }}>
+            EVERY TOOL<br />
+            TO{" "}
+            <span style={{ background:"linear-gradient(135deg,#00A3FF,#8B5CF6)", WebkitBackgroundClip:"text", WebkitTextFillColor:"transparent", backgroundClip:"text" }}>DOMINATE</span><br />
+            YOUR MARKET.
           </motion.h1>
           <motion.p initial={{ opacity:0, y:20 }} animate={{ opacity:1, y:0 }} transition={{ delay:0.2 }}
-            style={{ color:"#9CA3AF", fontSize:"19px", lineHeight:1.7, maxWidth:"560px", marginBottom:"40px" }}>
-            From social media growth to global PR — 15+ precision-engineered services that scale your brand and drive real revenue.
+            style={{ color:"#9CA3AF", fontSize:"18px", lineHeight:1.7, maxWidth:"520px", marginBottom:"36px" }}>
+            15+ premium digital marketing services engineered to scale your brand, dominate search, and drive real revenue — not just vanity metrics.
           </motion.p>
           <motion.div initial={{ opacity:0, y:16 }} animate={{ opacity:1, y:0 }} transition={{ delay:0.3 }}
             style={{ display:"flex", gap:"14px", flexWrap:"wrap" }}>
@@ -37,10 +39,10 @@ export default function ServicesHero() {
                 Get Free Strategy Call <ArrowRight size={16} />
               </motion.span>
             </Link>
-            <Link href="#services" style={{ textDecoration:"none" }}>
+            <Link href="/case-studies" style={{ textDecoration:"none" }}>
               <motion.span whileHover={{ scale:1.03 }}
                 style={{ display:"inline-flex", alignItems:"center", gap:"8px", padding:"16px 32px", borderRadius:"6px", border:"1px solid rgba(255,255,255,0.18)", color:"#FFF", fontWeight:600, fontSize:"15px", cursor:"pointer", background:"rgba(255,255,255,0.04)" }}>
-                Browse Services
+                See Results
               </motion.span>
             </Link>
           </motion.div>

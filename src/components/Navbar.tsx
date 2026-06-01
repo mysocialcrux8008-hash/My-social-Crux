@@ -50,15 +50,15 @@ export default function Navbar() {
         transition={{ duration: 0.5, ease: "easeOut" }}
         style={navStyle}
       >
-        <div style={{ maxWidth: "1280px", margin: "0 auto", padding: "0 32px" }}>
-          <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", height: "72px" }}>
+        <div style={{ maxWidth: "1280px", margin: "0 auto", padding: "0 16px" }}>
+          <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", height: "64px" }}>
 
             {/* Logo */}
-            <Link href="/" style={{ display: "flex", alignItems: "center", textDecoration: "none" }}>
+            <Link href="/" style={{ display: "flex", alignItems: "center", textDecoration: "none", flexShrink: 0 }}>
               <img
-                src="/logo-white.svg"
+                src="/logo.png"
                 alt="MySocialCrux"
-                style={{ height: "48px", width: "auto", display: "block" }}
+                style={{ height: "44px", width: "auto", display: "block", objectFit: "contain" }}
               />
             </Link>
 
@@ -97,9 +97,6 @@ export default function Navbar() {
 
             {/* CTA Buttons */}
             <div style={{ display: "flex", alignItems: "center", gap: "12px" }} className="desktop-nav">
-              <Link href="/contact" style={{ color: "#9CA3AF", fontSize: "14px", textDecoration: "none", fontWeight: 500 }}>
-                Login
-              </Link>
               <Link href="/contact">
                 <motion.span
                   whileHover={{ scale: 1.04, boxShadow: "0 0 20px rgba(255,62,165,0.4)" }}
@@ -238,10 +235,6 @@ export default function Navbar() {
             }}
           >
             <div style={{ display: "flex", flexDirection: "column", gap: "4px" }}>
-              {/* Logo in mobile menu */}
-              <div style={{ display: "flex", alignItems: "center", marginBottom: "24px", paddingBottom: "20px", borderBottom: "1px solid rgba(255,255,255,0.08)" }}>
-                <img src="/logo-white.svg" alt="MySocialCrux" style={{ height: "44px", width: "auto" }} />
-              </div>
               <button
                 onClick={() => setMobileServicesOpen(!mobileServicesOpen)}
                 style={{
