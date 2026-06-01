@@ -20,10 +20,9 @@ const footerLinks = {
     { label: "FAQ", href: "/faq" },
   ],
   Legal: [
-    { label: "Privacy Policy", href: "#" },
-    { label: "Terms of Service", href: "#" },
-    { label: "Cookie Policy", href: "#" },
-    { label: "Sitemap", href: "/sitemap.xml" },
+    { label: "Privacy Policy", href: "/privacy-policy" },
+    { label: "Terms of Service", href: "/terms" },
+    { label: "Cookie Policy", href: "/cookies" },
   ],
 };
 
@@ -120,9 +119,13 @@ export default function Footer() {
             </p>
           </div>
           <div style={{ display: "flex", gap: "24px" }}>
-            {["Privacy Policy", "Terms of Use", "Cookie Policy"].map((item) => (
-              <Link key={item} href="#" style={{ color: "#6B7280", fontSize: "12px", textDecoration: "none" }}>
-                {item}
+            {[
+              { label: "Privacy Policy", href: "/privacy-policy" },
+              { label: "Terms of Use", href: "/terms" },
+              { label: "Cookie Policy", href: "/cookies" },
+            ].map((item) => (
+              <Link key={item.label} href={item.href} style={{ color: "#6B7280", fontSize: "12px", textDecoration: "none" }}>
+                {item.label}
               </Link>
             ))}
           </div>

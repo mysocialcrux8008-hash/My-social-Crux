@@ -20,13 +20,13 @@ export default function AboutStory() {
                 <span style={{ background:"linear-gradient(135deg,#FF3EA5,#FF6B00)", WebkitBackgroundClip:"text", WebkitTextFillColor:"transparent", backgroundClip:"text" }}>Mediocre Results</span>
               </h2>
               <p style={{ color:"#94A3B8", fontSize:"16px", lineHeight:1.75, marginBottom:"20px" }}>
-                MySocialCrux was founded in 2016 by a team of digital marketers who were tired of agencies that promised the world and delivered spreadsheets. We built the agency we always wished existed.
+                MySocialCrux is a brand of <strong style={{ color:"#E2E8F0" }}>Meilleure Promotions Services Private Limited</strong>, founded in Jaipur, India. We started with a simple mission: build the digital marketing agency we always wished existed — one that delivers real results, not just reports.
               </p>
               <p style={{ color:"#94A3B8", fontSize:"16px", lineHeight:1.75, marginBottom:"32px" }}>
-                Starting with a handful of clients in New York, we grew by doing one thing exceptionally well: delivering results that actually impact revenue. Today, we&apos;re a team of 50+ specialists serving brands across 15 countries.
+                Starting with a handful of clients, we grew by doing one thing exceptionally well: delivering results that actually impact revenue. Today, MySocialCrux is a trusted growth partner for brands across 15+ countries.
               </p>
               <div style={{ display:"flex", flexDirection:"column", gap:"12px" }}>
-                {["Founded in Jaipur, India · 2016","50+ specialists across strategy, creative & tech","E-42, Anand Puri, Adarsh Nagar, Jaipur 302004","Serving clients in 15+ countries · Open 24 Hours"].map(item => (
+                {["Founded in Jaipur, India · 2016","50+ specialists across strategy, creative & tech","E-42, Anand Puri, Adarsh Nagar, Jaipur 302004","Brand of Meilleure Promotions Services Pvt. Ltd."].map(item => (
                   <div key={item} style={{ display:"flex", alignItems:"center", gap:"10px" }}>
                     <CheckCircle size={15} style={{ color:"#FF3EA5", flexShrink:0 }} />
                     <span style={{ color:"#CBD5E1", fontSize:"14px" }}>{item}</span>

@@ -3,14 +3,7 @@ import { motion } from "framer-motion";
 import { Linkedin, Twitter } from "lucide-react";
 
 const team = [
-  { name:"Alex Morgan",    role:"CEO & Co-Founder",        initials:"AM", color:"#FF3EA5", bio:"10+ years scaling brands from startup to IPO." },
-  { name:"Sarah Chen",     role:"Chief Strategy Officer",  initials:"SC", color:"#00A3FF", bio:"Former Google & Meta growth lead." },
-  { name:"Marcus Williams",role:"Head of SEO",             initials:"MW", color:"#00D084", bio:"Ranked 500+ brands on page 1 of Google." },
-  { name:"Priya Patel",    role:"Creative Director",       initials:"PP", color:"#8B5CF6", bio:"Award-winning brand storyteller." },
-  { name:"James Liu",      role:"Head of Social Media",    initials:"JL", color:"#FF6B00", bio:"Grew 200+ accounts to 100K+ followers." },
-  { name:"Emma Davis",     role:"PR & Partnerships Lead",  initials:"ED", color:"#FF3EA5", bio:"Placed clients in Forbes, TechCrunch & more." },
-  { name:"Ryan Torres",    role:"Head of Paid Media",      initials:"RT", color:"#00A3FF", bio:"$50M+ in ad spend managed profitably." },
-  { name:"Aisha Johnson",  role:"Content Strategy Lead",   initials:"AJ", color:"#00D084", bio:"Viral content architect for 100+ brands." },
+  { name:"Ankit Meena", role:"Director & Founder", initials:"AM", color:"#FF3EA5", bio:"Founder of MySocialCrux & Director at Meilleure Promotions Services Pvt. Ltd. Digital marketing strategist with expertise in social media growth, SEO, and brand building." },
 ];
 
 export default function AboutTeam() {
@@ -24,41 +17,32 @@ export default function AboutTeam() {
             The Team
           </span>
           <h2 style={{ fontFamily:"'Sora',sans-serif", fontSize:"clamp(30px,4vw,48px)", fontWeight:900, color:"#FFFFFF", marginBottom:"14px" }}>
-            The Minds Behind{" "}
-            <span style={{ background:"linear-gradient(135deg,#8B5CF6,#00A3FF)", WebkitBackgroundClip:"text", WebkitTextFillColor:"transparent", backgroundClip:"text" }}>Your Growth</span>
+            Meet the{" "}
+            <span style={{ background:"linear-gradient(135deg,#8B5CF6,#00A3FF)", WebkitBackgroundClip:"text", WebkitTextFillColor:"transparent", backgroundClip:"text" }}>Founder</span>
           </h2>
           <p style={{ color:"#94A3B8", fontSize:"17px", maxWidth:"500px", margin:"0 auto" }}>
-            50+ specialists united by one obsession: making your brand impossible to ignore.
+            The vision and drive behind MySocialCrux and Meilleure Promotions Services Pvt. Ltd.
           </p>
         </motion.div>
 
-        <div style={{ display:"grid", gridTemplateColumns:"repeat(4,1fr)", gap:"20px" }} className="team-grid">
+        <div style={{ display:"flex", justifyContent:"center" }}>
           {team.map((member, i) => (
             <motion.div key={member.name} initial={{ opacity:0, y:24 }} whileInView={{ opacity:1, y:0 }} viewport={{ once:true }} transition={{ delay:i*0.07 }}
               whileHover={{ y:-6, boxShadow:`0 20px 50px ${member.color}20` }}
-              style={{ background:"rgba(255,255,255,0.03)", border:"1px solid rgba(255,255,255,0.08)", borderRadius:"20px", padding:"28px 20px", textAlign:"center", transition:"all 0.3s", position:"relative", overflow:"hidden" }}
+              style={{ background:"rgba(255,255,255,0.03)", border:"1px solid rgba(255,255,255,0.08)", borderRadius:"20px", padding:"40px 48px", textAlign:"center", transition:"all 0.3s", position:"relative", overflow:"hidden", maxWidth:"420px", width:"100%" }}
               className="team-card">
-              {/* Glow top */}
-              <div style={{ position:"absolute", top:0, left:"50%", transform:"translateX(-50%)", width:"80px", height:"2px", background:`linear-gradient(90deg, transparent, ${member.color}, transparent)` }} />
-              <div style={{ width:"64px", height:"64px", borderRadius:"16px", background:`linear-gradient(135deg, ${member.color}, ${member.color}80)`, display:"flex", alignItems:"center", justifyContent:"center", fontSize:"20px", fontWeight:900, color:"#fff", margin:"0 auto 16px" }}>
+              <div style={{ position:"absolute", top:0, left:"50%", transform:"translateX(-50%)", width:"120px", height:"2px", background:`linear-gradient(90deg, transparent, ${member.color}, transparent)` }} />
+              <div style={{ width:"80px", height:"80px", borderRadius:"20px", background:`linear-gradient(135deg, ${member.color}, ${member.color}80)`, display:"flex", alignItems:"center", justifyContent:"center", fontSize:"28px", fontWeight:900, color:"#fff", margin:"0 auto 20px" }}>
                 {member.initials}
               </div>
-              <h4 style={{ color:"#FFFFFF", fontWeight:700, fontSize:"15px", marginBottom:"4px" }}>{member.name}</h4>
-              <p style={{ color:member.color, fontSize:"12px", fontWeight:600, marginBottom:"8px" }}>{member.role}</p>
-              <p style={{ color:"#6B7280", fontSize:"12px", lineHeight:1.5, marginBottom:"16px" }}>{member.bio}</p>
-              <div style={{ display:"flex", alignItems:"center", justifyContent:"center", gap:"8px" }}>
-                <a href="#" style={{ width:"28px", height:"28px", borderRadius:"8px", background:"rgba(255,255,255,0.06)", display:"flex", alignItems:"center", justifyContent:"center", textDecoration:"none" }}>
-                  <Linkedin size={12} style={{ color:"#9CA3AF" }} />
-                </a>
-                <a href="#" style={{ width:"28px", height:"28px", borderRadius:"8px", background:"rgba(255,255,255,0.06)", display:"flex", alignItems:"center", justifyContent:"center", textDecoration:"none" }}>
-                  <Twitter size={12} style={{ color:"#9CA3AF" }} />
-                </a>
-              </div>
+              <h4 style={{ color:"#FFFFFF", fontWeight:800, fontSize:"20px", marginBottom:"6px" }}>{member.name}</h4>
+              <p style={{ color:member.color, fontSize:"14px", fontWeight:600, marginBottom:"14px" }}>{member.role}</p>
+              <p style={{ color:"#94A3B8", fontSize:"14px", lineHeight:1.7, marginBottom:"20px" }}>{member.bio}</p>
             </motion.div>
           ))}
         </div>
       </div>
-      <style>{`@media(max-width:1024px){.team-grid{grid-template-columns:repeat(3,1fr)!important;}} @media(max-width:640px){.team-grid{grid-template-columns:repeat(2,1fr)!important;}}`}</style>
+      <style>{``}</style>
     </section>
   );
 }
