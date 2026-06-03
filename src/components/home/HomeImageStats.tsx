@@ -4,10 +4,10 @@ import Link from "next/link";
 import { ArrowRight, TrendingUp } from "lucide-react";
 
 const results = [
-  { image:"https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=600&q=85", label:"Social Media", stat:"4,150%", desc:"Follower growth for TechVenture", color:"#FF3EA5" },
-  { image:"https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?w=600&q=85", label:"SEO", stat:"+312%", desc:"Organic traffic for BrandForge", color:"#6366F1" },
-  { image:"https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=600&q=85", label:"Press & PR", stat:"200+", desc:"Global publications secured", color:"#8B5CF6" },
-  { image:"https://images.unsplash.com/photo-1551434678-e076c223a692?w=600&q=85", label:"YouTube", stat:"100K", desc:"Subscribers in 8 months", color:"#EF4444" },
+  { image:"https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?w=600&q=85", label:"Social Media", stat:"4,150%", desc:"Follower growth for TechVenture", color:"#FF3EA5" },
+  { image:"https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=600&q=85", label:"SEO", stat:"+312%", desc:"Organic traffic for BrandForge", color:"#6366F1" },
+  { image:"https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=600&q=85", label:"Press & PR", stat:"200+", desc:"Global publications secured", color:"#8B5CF6" },
+  { image:"https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=600&q=85", label:"YouTube", stat:"100K", desc:"Subscribers in 8 months", color:"#EF4444" },
 ];
 
 export default function HomeImageStats() {

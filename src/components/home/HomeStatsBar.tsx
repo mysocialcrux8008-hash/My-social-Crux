@@ -11,22 +11,32 @@ const stats = [
 export default function HomeStatsBar() {
   return (
     <section style={{ background:"#FFFFFF", borderTop:"1px solid #E2E8F0", borderBottom:"1px solid #E2E8F0" }}>
-      <div style={{ maxWidth:"1280px", margin:"0 auto", padding:"0 32px" }}>
+      <div style={{ maxWidth:"1280px", margin:"0 auto", padding:"0 20px" }}>
         <div style={{ display:"grid", gridTemplateColumns:"repeat(4,1fr)" }} className="statsbar-grid">
           {stats.map((s, i) => (
             <motion.div key={s.label} initial={{ opacity:0, y:16 }} whileInView={{ opacity:1, y:0 }} viewport={{ once:true }} transition={{ delay:i*0.08 }}
-              style={{ padding:"52px 32px", textAlign:"center", borderRight: i < 3 ? "1px solid #E2E8F0" : "none" }}>
-              <div style={{ fontFamily:"'Sora',sans-serif", fontSize:"clamp(32px,4vw,52px)", fontWeight:900, color:s.color, marginBottom:"8px" }}>
+              style={{ padding:"48px 16px", textAlign:"center", borderRight: i < 3 ? "1px solid #E2E8F0" : "none" }}>
+              <div style={{ fontFamily:"'Sora',sans-serif", fontSize:"clamp(28px,5vw,52px)", fontWeight:900, color:s.color, marginBottom:"8px", wordBreak:"break-word" }}>
                 {s.value}
               </div>
-              <div style={{ color:"#64748B", fontSize:"13px", textTransform:"uppercase", letterSpacing:"0.08em", fontWeight:600 }}>
+              <div style={{ color:"#64748B", fontSize:"clamp(10px,2vw,13px)", textTransform:"uppercase", letterSpacing:"0.08em", fontWeight:600 }}>
                 {s.label}
               </div>
             </motion.div>
           ))}
         </div>
       </div>
-      <style>{`@media(max-width:768px){.statsbar-grid{grid-template-columns:repeat(2,1fr)!important;}}`}</style>
+      <style>{`
+        @media(max-width:768px){
+          .statsbar-grid{grid-template-columns:repeat(2,1fr)!important;}
+          .statsbar-grid > div:nth-child(2){border-right:none!important;}
+          .statsbar-grid > div:nth-child(1),
+          .statsbar-grid > div:nth-child(2){border-bottom:1px solid #E2E8F0!important;}
+        }
+        @media(max-width:400px){
+          .statsbar-grid{grid-template-columns:1fr 1fr!important;}
+        }
+      `}</style>
     </section>
   );
 }

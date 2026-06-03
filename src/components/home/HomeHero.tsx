@@ -10,7 +10,7 @@ export default function HomeHero() {
       {/* FULL BG — social media girl working */}
       <div style={{ position:"absolute", inset:0 }}>
         <img
-          src="https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=1600&q=90"
+          src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=1600&q=90"
           alt="Social media marketing"
           style={{ width:"100%", height:"100%", objectFit:"cover", objectPosition:"center top", opacity:0.35 }}
         />
@@ -93,11 +93,15 @@ export default function HomeHero() {
             {/* Main large image */}
             <motion.div animate={{ y:[0,-10,0] }} transition={{ duration:6, repeat:Infinity, ease:"easeInOut" }}
               style={{ position:"absolute", top:"0", left:"0", right:"80px", height:"320px", borderRadius:"20px", overflow:"hidden", boxShadow:"0 30px 80px rgba(0,0,0,0.6)", border:"1px solid rgba(255,255,255,0.1)" }}>
-              <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=700&q=85" alt="Social media team" style={{ width:"100%", height:"100%", objectFit:"cover", display:"block" }} />
+              <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=700&q=85" alt="Social media team" style={{ width:"100%", height:"100%", objectFit:"cover", objectPosition:"center top", display:"block" }} />
               <div style={{ position:"absolute", inset:0, background:"linear-gradient(135deg, rgba(255,62,165,0.15), transparent)" }} />
               {/* Live badge */}
               <div style={{ position:"absolute", top:"16px", left:"16px", display:"flex", alignItems:"center", gap:"8px", padding:"8px 14px", borderRadius:"999px", background:"rgba(0,0,0,0.75)", backdropFilter:"blur(12px)", border:"1px solid rgba(255,255,255,0.1)" }}>
-                <span style={{ width:"8px", height:"8px", borderRadius:"50%", background:"#00D084", display:"inline-block", animation:"pulse 1.5s infinite" }} />
+                <motion.div
+                  animate={{ opacity: [1, 0.3, 1] }}
+                  transition={{ duration: 1.5, repeat: Infinity }}
+                  style={{ width:"8px", height:"8px", borderRadius:"50%", background:"#00D084", display:"inline-block" }}
+                />
                 <span style={{ color:"#FFF", fontSize:"12px", fontWeight:600 }}>Live Campaign Active</span>
               </div>
             </motion.div>
@@ -105,7 +109,7 @@ export default function HomeHero() {
             {/* Bottom right image */}
             <motion.div animate={{ y:[0,8,0] }} transition={{ duration:7, repeat:Infinity, ease:"easeInOut", delay:1 }}
               style={{ position:"absolute", bottom:"0", right:"0", width:"220px", height:"200px", borderRadius:"16px", overflow:"hidden", boxShadow:"0 20px 60px rgba(0,0,0,0.5)", border:"1px solid rgba(255,255,255,0.1)" }}>
-              <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=85" alt="Marketing professional" style={{ width:"100%", height:"100%", objectFit:"cover", display:"block" }} />
+              <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=85" alt="Marketing professional" style={{ width:"100%", height:"100%", objectFit:"cover", objectPosition:"center top", display:"block" }} />
               <div style={{ position:"absolute", inset:0, background:"linear-gradient(to top, rgba(0,0,0,0.6), transparent)" }} />
             </motion.div>
 
@@ -136,7 +140,7 @@ export default function HomeHero() {
 
         {/* Bottom stats strip */}
         <motion.div initial={{ opacity:0, y:24 }} animate={{ opacity:1, y:0 }} transition={{ delay:0.7, duration:0.6 }}
-          style={{ marginTop:"60px", display:"grid", gridTemplateColumns:"repeat(4,1fr)", borderRadius:"12px", overflow:"hidden", border:"1px solid rgba(255,255,255,0.08)", background:"rgba(255,255,255,0.03)", backdropFilter:"blur(10px)" }}
+          style={{ marginTop:"60px", display:"grid", gridTemplateColumns:"repeat(4,1fr)", borderRadius:"12px", overflow:"hidden", border:"1px solid rgba(255,255,255,0.08)", background:"rgba(255,255,255,0.03)" }}
           className="hero-stats-strip">
           {[
             { value:"500+", label:"Brands Scaled", color:"#FF3EA5" },
@@ -158,7 +162,6 @@ export default function HomeHero() {
           .hero-right-panel{display:none!important;}
           .hero-stats-strip{grid-template-columns:repeat(2,1fr)!important;}
         }
-        @keyframes pulse{0%,100%{opacity:1}50%{opacity:0.3}}
       `}</style>
     </section>
   );

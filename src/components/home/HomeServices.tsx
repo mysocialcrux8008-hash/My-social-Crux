@@ -17,7 +17,7 @@ const services = [
 export default function HomeServices() {
   return (
     <section style={{ padding:"100px 0", background:"#FFFFFF", position:"relative" }}>
-      <div style={{ maxWidth:"1280px", margin:"0 auto", padding:"0 32px" }}>
+      <div style={{ maxWidth:"1280px", margin:"0 auto", padding:"0 20px" }}>
         <motion.div initial={{ opacity:0, y:24 }} whileInView={{ opacity:1, y:0 }} viewport={{ once:true }} style={{ textAlign:"center", marginBottom:"64px" }}>
           <span style={{ display:"inline-block", padding:"6px 16px", borderRadius:"999px", background:"rgba(255,62,165,0.08)", border:"1px solid rgba(255,62,165,0.2)", color:"#FF3EA5", fontSize:"11px", fontWeight:700, textTransform:"uppercase", letterSpacing:"0.12em", marginBottom:"16px" }}>
             What We Do

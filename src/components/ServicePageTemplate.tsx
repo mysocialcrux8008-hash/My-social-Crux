@@ -121,12 +121,12 @@ export default function ServicePageTemplate({ d }: { d: ServicePageData }) {
               style={{ position:"relative", height:"480px" }} className="spt-hero-right">
               <motion.div animate={{ y:[0,-10,0] }} transition={{ duration:6, repeat:Infinity, ease:"easeInOut" }}
                 style={{ position:"absolute", top:0, left:0, right:"60px", height:"300px", borderRadius:"20px", overflow:"hidden", border:"1px solid rgba(255,255,255,0.1)", boxShadow:"0 30px 80px rgba(0,0,0,0.6)" }}>
-                <img src={d.heroRightImage} alt="" style={{ width:"100%", height:"100%", objectFit:"cover", display:"block" }} />
+                <img src={d.heroRightImage} alt="" style={{ width:"100%", height:"100%", objectFit:"cover", objectPosition:"center top", display:"block" }} />
                 <div style={{ position:"absolute", inset:0, background:`linear-gradient(135deg, ${d.accentColor}20, transparent)` }} />
               </motion.div>
               <motion.div animate={{ y:[0,8,0] }} transition={{ duration:7, repeat:Infinity, ease:"easeInOut", delay:1 }}
                 style={{ position:"absolute", bottom:0, right:0, width:"200px", height:"180px", borderRadius:"16px", overflow:"hidden", border:"1px solid rgba(255,255,255,0.1)", boxShadow:"0 20px 60px rgba(0,0,0,0.5)" }}>
-                <img src={d.heroRightImage2} alt="" style={{ width:"100%", height:"100%", objectFit:"cover", display:"block" }} />
+                <img src={d.heroRightImage2} alt="" style={{ width:"100%", height:"100%", objectFit:"cover", objectPosition:"center top", display:"block" }} />
               </motion.div>
               <motion.div animate={{ y:[0,-8,0] }} transition={{ duration:4, repeat:Infinity, ease:"easeInOut", delay:0.5 }}
                 style={{ position:"absolute", top:"28%", right:"20px", background:"rgba(11,15,25,0.92)", backdropFilter:"blur(16px)", border:`1px solid ${d.accentColor}35`, borderRadius:"12px", padding:"12px 16px", display:"flex", alignItems:"center", gap:"10px", zIndex:20, boxShadow:`0 8px 32px ${d.accentColor}25` }}>
@@ -196,7 +196,7 @@ export default function ServicePageTemplate({ d }: { d: ServicePageData }) {
         <div style={{ maxWidth:"1280px", margin:"0 auto", padding:"0 32px" }}>
           <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr", minHeight:"560px", alignItems:"stretch" }} className="spt-split-grid">
             <motion.div initial={{ opacity:0, x:-30 }} whileInView={{ opacity:1, x:0 }} viewport={{ once:true }} style={{ position:"relative", overflow:"hidden" }}>
-              <img src={d.splitImage} alt="" style={{ width:"100%", height:"100%", objectFit:"cover", display:"block" }} />
+              <img src={d.splitImage} alt="" style={{ width:"100%", height:"100%", objectFit:"cover", objectPosition:"center top", display:"block" }} />
               <div style={{ position:"absolute", inset:0, background:`linear-gradient(135deg, ${d.accentColor}20, transparent 60%)` }} />
               <div style={{ position:"absolute", bottom:"28px", left:"28px", right:"28px", background:"rgba(0,0,0,0.82)", backdropFilter:"blur(16px)", borderRadius:"14px", padding:"20px 22px", borderLeft:`3px solid ${d.accentColor}` }}>
                 <div style={{ display:"flex", alignItems:"center", gap:"8px", marginBottom:"8px" }}>

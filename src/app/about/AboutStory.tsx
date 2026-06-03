@@ -35,7 +35,7 @@ export default function AboutStory() {
               </div>
             </motion.div>
             <motion.div initial={{ opacity:0, x:30 }} whileInView={{ opacity:1, x:0 }} viewport={{ once:true }} style={{ position:"relative", overflow:"hidden" }}>
-              <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=900&q=85" alt="MySocialCrux team" style={{ width:"100%", height:"100%", objectFit:"cover", display:"block" }} />
+              <img src="https://images.unsplash.com/photo-1600880292089-352a2a5f4ea9?w=900&q=85" alt="MySocialCrux team" style={{ width:"100%", height:"100%", objectFit:"cover", display:"block" }} />
               <div style={{ position:"absolute", inset:0, background:"linear-gradient(135deg, rgba(255,62,165,0.15), transparent 60%)" }} />
               <div style={{ position:"absolute", bottom:"28px", left:"28px", right:"28px", background:"rgba(0,0,0,0.82)", backdropFilter:"blur(16px)", borderRadius:"14px", padding:"22px 24px", borderLeft:"3px solid #FF3EA5" }}>
                 <p style={{ color:"#E2E8F0", fontSize:"14px", lineHeight:1.65, fontStyle:"italic", marginBottom:"14px" }}>

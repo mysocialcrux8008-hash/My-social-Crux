@@ -11,7 +11,7 @@ const data: ServicePageData = {
   heroSubtitle: "Fast. Beautiful. SEO-optimized. Conversion-focused. We build premium websites that don't just look stunning — they rank on Google, load in under 2 seconds, and turn every visitor into a paying customer.",
   heroBgImage: "https://images.unsplash.com/photo-1547658719-da2b51169166?w=1600&q=85",
   heroRightImage: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=700&q=85",
-  heroRightImage2: "https://images.unsplash.com/photo-1551434678-e076c223a692?w=400&q=85",
+  heroRightImage2: "https://images.unsplash.com/photo-1547658719-da2b51169166?w=400&q=85",
   heroStats: [
     { v: "300+",   l: "Websites Delivered" },
     { v: "<1.5s",  l: "Avg. Load Time" },
@@ -34,7 +34,7 @@ const data: ServicePageData = {
     { icon: Shield,     title: "Secure & Scalable",           desc: "Enterprise-grade security, SSL, GDPR compliance, and infrastructure that scales with your business growth.", color: "#FF3EA5" },
     { icon: BarChart3,  title: "Analytics & Tracking Setup",  desc: "Full Google Analytics 4, Search Console, heatmaps, and conversion tracking setup so you know exactly what's working.", color: "#00D084" },
   ],
-  splitImage: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=900&q=85",
+  splitImage: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=900&q=85",
   splitBadge: "What's Included",
   splitTitle: "A Complete Website",
   splitTitleAccent: "Design & Development Package",

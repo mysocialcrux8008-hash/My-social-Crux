@@ -24,9 +24,9 @@ export default function WhatsAppButton() {
       }}
     >
       <MessageCircle size={26} style={{ color: "#FFFFFF", fill: "#FFFFFF" }} />
-      <span style={{
+      <span className="animate-ping-slow" style={{
         position: "absolute", inset: 0, borderRadius: "50%",
-        background: "#25D366", animation: "ping-slow 2s ease-out infinite",
+        background: "#25D366",
       }} />
     </motion.a>
   );

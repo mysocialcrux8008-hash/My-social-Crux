@@ -58,7 +58,7 @@ export default function CareersContent() {
             </div>
             <motion.div initial={{ opacity: 0, x: 30 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.3 }}
               style={{ borderRadius: "24px", overflow: "hidden", border: "1px solid rgba(255,255,255,0.08)" }}>
-              <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=700&q=80" alt="Team collaboration" style={{ width: "100%", height: "380px", objectFit: "cover", display: "block" }} />
+              <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=700&q=80" alt="Team collaboration" style={{ width: "100%", height: "380px", objectFit: "cover", display: "block" }} />
             </motion.div>
           </div>
         </div>

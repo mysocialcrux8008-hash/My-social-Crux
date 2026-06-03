@@ -37,7 +37,7 @@ export default function HomeSplitSection() {
               </Link>
             </motion.div>
             <motion.div initial={{ opacity:0, x:30 }} whileInView={{ opacity:1, x:0 }} viewport={{ once:true }} style={{ position:"relative", overflow:"hidden" }}>
-              <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=900&q=85" alt="Social media marketing team" style={{ width:"100%", height:"100%", objectFit:"cover", display:"block" }} />
+              <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?w=900&q=85" alt="Social media marketing team" style={{ width:"100%", height:"100%", objectFit:"cover", objectPosition:"center top", display:"block" }} />
               <div style={{ position:"absolute", inset:0, background:"linear-gradient(135deg, rgba(255,62,165,0.15), transparent 60%)" }} />
               <div style={{ position:"absolute", bottom:"32px", left:"28px", right:"28px", background:"rgba(0,0,0,0.82)", backdropFilter:"blur(16px)", borderRadius:"14px", padding:"22px 24px", borderLeft:"3px solid #FF3EA5" }}>
                 <p style={{ color:"#E2E8F0", fontSize:"14px", lineHeight:1.65, fontStyle:"italic", marginBottom:"14px" }}>
@@ -61,7 +61,7 @@ export default function HomeSplitSection() {
         <div style={{ maxWidth:"1280px", margin:"0 auto", padding:"0 32px" }}>
           <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr", minHeight:"520px", alignItems:"stretch" }} className="split-grid">
             <motion.div initial={{ opacity:0, x:-30 }} whileInView={{ opacity:1, x:0 }} viewport={{ once:true }} style={{ position:"relative", overflow:"hidden" }}>
-              <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=900&q=85" alt="Analytics dashboard" style={{ width:"100%", height:"100%", objectFit:"cover", display:"block" }} />
+              <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=900&q=85" alt="Analytics dashboard" style={{ width:"100%", height:"100%", objectFit:"cover", objectPosition:"center", display:"block" }} />
               <div style={{ position:"absolute", inset:0, background:"linear-gradient(135deg, rgba(16,185,129,0.12), transparent 60%)" }} />
             </motion.div>
             <motion.div initial={{ opacity:0, x:30 }} whileInView={{ opacity:1, x:0 }} viewport={{ once:true }}

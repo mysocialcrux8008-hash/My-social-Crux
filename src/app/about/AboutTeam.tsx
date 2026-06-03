@@ -1,6 +1,5 @@
 "use client";
 import { motion } from "framer-motion";
-import { Linkedin, Twitter } from "lucide-react";
 
 const team = [
   { name:"Ankit Meena", role:"Director & Founder", initials:"AM", color:"#FF3EA5", bio:"Founder of MySocialCrux & Director at Meilleure Promotions Services Pvt. Ltd. Digital marketing strategist with expertise in social media growth, SEO, and brand building." },

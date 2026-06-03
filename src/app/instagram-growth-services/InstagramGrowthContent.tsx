@@ -85,7 +85,7 @@ export default function InstagramGrowthContent() {
       {/* ── HERO ── */}
       <section style={{ position: "relative", minHeight: "90vh", display: "flex", alignItems: "center", background: "#000", overflow: "hidden", paddingTop: "72px" }}>
         <div style={{ position: "absolute", inset: 0 }}>
-          <img src="https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=1600&q=85" alt="" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center", opacity: 0.25 }} />
+          <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=1600&q=85" alt="" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center", opacity: 0.25 }} />
           <div style={{ position: "absolute", inset: 0, background: "linear-gradient(90deg, rgba(0,0,0,0.97) 45%, rgba(0,0,0,0.65) 100%)" }} />
           <div style={{ position: "absolute", top: "-80px", right: "10%", width: "600px", height: "600px", borderRadius: "50%", background: "rgba(255,62,165,0.2)", filter: "blur(100px)" }} />
           <div className="grid-pattern" style={{ position: "absolute", inset: 0, opacity: 0.2 }} />
@@ -138,12 +138,12 @@ export default function InstagramGrowthContent() {
               style={{ position: "relative", height: "480px" }} className="ig-hero-right">
               <motion.div animate={{ y: [0, -10, 0] }} transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
                 style={{ position: "absolute", top: 0, left: 0, right: "60px", height: "300px", borderRadius: "20px", overflow: "hidden", border: "1px solid rgba(255,255,255,0.1)", boxShadow: "0 30px 80px rgba(0,0,0,0.6)" }}>
-                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=700&q=85" alt="Social media influencer" style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
+                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=700&q=85" alt="Social media influencer" style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
                 <div style={{ position: "absolute", inset: 0, background: "linear-gradient(135deg, rgba(255,62,165,0.2), transparent)" }} />
               </motion.div>
               <motion.div animate={{ y: [0, 8, 0] }} transition={{ duration: 7, repeat: Infinity, ease: "easeInOut", delay: 1 }}
                 style={{ position: "absolute", bottom: 0, right: 0, width: "200px", height: "180px", borderRadius: "16px", overflow: "hidden", border: "1px solid rgba(255,255,255,0.1)", boxShadow: "0 20px 60px rgba(0,0,0,0.5)" }}>
-                <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?w=400&q=85" alt="Content creator" style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
+                <img src="https://images.unsplash.com/photo-1509967419530-da38b4704bc6?w=400&q=85" alt="Content creator" style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
               </motion.div>
               {/* Floating chips */}
               <motion.div animate={{ y: [0, -8, 0] }} transition={{ duration: 4, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
@@ -224,7 +224,7 @@ export default function InstagramGrowthContent() {
         <div style={{ maxWidth: "1280px", margin: "0 auto", padding: "0 32px" }}>
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", minHeight: "560px", alignItems: "stretch" }} className="ig-split-grid">
             <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} style={{ position: "relative", overflow: "hidden" }}>
-              <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=900&q=85" alt="Social media team working" style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
+              <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=900&q=85" alt="Social media team working" style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
               <div style={{ position: "absolute", inset: 0, background: "linear-gradient(135deg, rgba(255,62,165,0.2), transparent 60%)" }} />
               <div style={{ position: "absolute", bottom: "28px", left: "28px", right: "28px", background: "rgba(0,0,0,0.82)", backdropFilter: "blur(16px)", borderRadius: "14px", padding: "20px 22px", borderLeft: "3px solid #FF3EA5" }}>
                 <div style={{ display: "flex", alignItems: "center", gap: "8px", marginBottom: "8px" }}>

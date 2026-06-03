@@ -36,7 +36,7 @@ export default function ContactContent() {
           <div style={{ position:"absolute", bottom:"-60px", right:"-60px", width:"500px", height:"500px", borderRadius:"50%", background:"rgba(139,92,246,0.1)", filter:"blur(80px)" }} />
           <div className="grid-pattern" style={{ position:"absolute", inset:0, opacity:0.2 }} />
         </div>
-        <div style={{ position:"relative", maxWidth:"1280px", margin:"0 auto", padding:"0 32px" }}>
+        <div style={{ position:"relative", maxWidth:"1280px", margin:"0 auto", padding:"0 20px" }}>
           <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr", gap:"80px", alignItems:"flex-start" }} className="contact-hero-grid">
 
             {/* LEFT — heading */}
@@ -114,7 +114,7 @@ export default function ContactContent() {
                     </div>
 
                     {/* Name + Email */}
-                    <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr", gap:"12px" }}>
+                    <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr", gap:"12px" }} className="form-row">
                       {[
                         { label:"Name *", key:"name", type:"text", placeholder:"Your name" },
                         { label:"Email *", key:"email", type:"email", placeholder:"you@company.com" },
@@ -128,7 +128,7 @@ export default function ContactContent() {
                     </div>
 
                     {/* Company + Budget */}
-                    <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr", gap:"12px" }}>
+                    <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr", gap:"12px" }} className="form-row">
                       <div>
                         <label style={{ display:"block", color:"#9CA3AF", fontSize:"11px", fontWeight:600, textTransform:"uppercase", letterSpacing:"0.1em", marginBottom:"8px" }}>Company</label>
                         <input type="text" value={form.company} onChange={e => setForm({...form, company:e.target.value})} placeholder="Company name"
@@ -161,7 +161,10 @@ export default function ContactContent() {
             </motion.div>
           </div>
         </div>
-        <style>{`@media(max-width:1024px){.contact-hero-grid{grid-template-columns:1fr!important;}}`}</style>
+        <style>{`
+          @media(max-width:1024px){.contact-hero-grid{grid-template-columns:1fr!important;}}
+          @media(max-width:600px){.form-row{grid-template-columns:1fr!important;}}
+        `}</style>
       </section>
 
       {/* INFO CARDS */}
