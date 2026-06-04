@@ -138,12 +138,12 @@ export default function InstagramGrowthContent() {
               style={{ position: "relative", height: "480px" }} className="ig-hero-right">
               <motion.div animate={{ y: [0, -10, 0] }} transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
                 style={{ position: "absolute", top: 0, left: 0, right: "60px", height: "300px", borderRadius: "20px", overflow: "hidden", border: "1px solid rgba(255,255,255,0.1)", boxShadow: "0 30px 80px rgba(0,0,0,0.6)" }}>
-                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=700&q=85" alt="Social media influencer" style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
+                <img src="https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=700&q=85" alt="Social media influencer" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center center", display: "block" }} />
                 <div style={{ position: "absolute", inset: 0, background: "linear-gradient(135deg, rgba(255,62,165,0.2), transparent)" }} />
               </motion.div>
               <motion.div animate={{ y: [0, 8, 0] }} transition={{ duration: 7, repeat: Infinity, ease: "easeInOut", delay: 1 }}
                 style={{ position: "absolute", bottom: 0, right: 0, width: "200px", height: "180px", borderRadius: "16px", overflow: "hidden", border: "1px solid rgba(255,255,255,0.1)", boxShadow: "0 20px 60px rgba(0,0,0,0.5)" }}>
-                <img src="https://images.unsplash.com/photo-1509967419530-da38b4704bc6?w=400&q=85" alt="Content creator" style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
+                <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=400&q=85" alt="Content creator" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center top", display: "block" }} />
               </motion.div>
               {/* Floating chips */}
               <motion.div animate={{ y: [0, -8, 0] }} transition={{ duration: 4, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}

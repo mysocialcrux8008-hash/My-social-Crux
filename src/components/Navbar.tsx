@@ -64,6 +64,13 @@ export default function Navbar() {
 
             {/* Desktop Nav */}
             <div ref={megaRef} style={{ display: "flex", alignItems: "center", gap: "4px" }} className="desktop-nav">
+              <Link href="/" style={{
+                padding: "8px 14px", borderRadius: "8px",
+                color: "#D1D5DB", fontSize: "14px", fontWeight: 500,
+                textDecoration: "none", transition: "color 0.2s",
+              }}>
+                Home
+              </Link>
               <button
                 onMouseEnter={() => setMegaOpen(true)}
                 onClick={() => setMegaOpen(!megaOpen)}
@@ -274,6 +281,7 @@ export default function Navbar() {
                 )}
               </AnimatePresence>
               {[
+                { label: "Home", href: "/" },
                 { label: "About", href: "/about" },
                 { label: "Case Studies", href: "/case-studies" },
                 { label: "Careers", href: "/careers" },

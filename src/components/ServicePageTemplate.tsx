@@ -71,7 +71,7 @@ export default function ServicePageTemplate({ d }: { d: ServicePageData }) {
       {/* HERO */}
       <section style={{ position:"relative", minHeight:"90vh", display:"flex", alignItems:"center", background:"#000", overflow:"hidden", paddingTop:"72px" }}>
         <div style={{ position:"absolute", inset:0 }}>
-          <img src={d.heroBgImage} alt="" style={{ width:"100%", height:"100%", objectFit:"cover", objectPosition:"center", opacity:0.25 }} />
+          <img src={d.heroBgImage} alt="" style={{ width:"100%", height:"100%", objectFit:"cover", objectPosition:"center top", opacity:0.25 }} />
           <div style={{ position:"absolute", inset:0, background:"linear-gradient(90deg, rgba(0,0,0,0.97) 45%, rgba(0,0,0,0.65) 100%)" }} />
           <div style={{ position:"absolute", top:"-80px", right:"10%", width:"600px", height:"600px", borderRadius:"50%", background:d.accentColor+"22", filter:"blur(100px)" }} />
           <div className="grid-pattern" style={{ position:"absolute", inset:0, opacity:0.2 }} />

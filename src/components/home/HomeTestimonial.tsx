@@ -22,9 +22,27 @@ export default function HomeTestimonial() {
             Brands That Chose to{" "}
             <span style={{ background:"linear-gradient(135deg,#FF3EA5,#FF6B00)", WebkitBackgroundClip:"text", WebkitTextFillColor:"transparent", backgroundClip:"text" }}>Win Big</span>
           </h2>
-          <p style={{ color:"#64748B", fontSize:"18px", maxWidth:"520px", margin:"0 auto" }}>
+          <p style={{ color:"#64748B", fontSize:"18px", maxWidth:"520px", margin:"0 auto 20px" }}>
             Real results from real brands. Here&apos;s what our clients say.
           </p>
+          {/* Trustpilot inline badge */}
+          <a href="https://www.trustpilot.com/review/mysocialcrux.com" target="_blank" rel="noopener noreferrer"
+            style={{ display:"inline-flex", alignItems:"center", gap:"10px", padding:"10px 20px", borderRadius:"999px", background:"rgba(0,182,122,0.08)", border:"1px solid rgba(0,182,122,0.25)", textDecoration:"none" }}>
+            <div style={{ width:"22px", height:"22px", borderRadius:"4px", background:"#00B67A", display:"flex", alignItems:"center", justifyContent:"center" }}>
+              <Star size={12} style={{ color:"#FFF", fill:"#FFF" }} />
+            </div>
+            <span style={{ fontFamily:"'Sora',sans-serif", fontSize:"14px", fontWeight:700, color:"#0F172A" }}>
+              Trust<span style={{ color:"#00B67A" }}>pilot</span>
+            </span>
+            <div style={{ display:"flex", gap:"2px" }}>
+              {[1,2,3,4,5].map(i => (
+                <div key={i} style={{ width:"16px", height:"16px", background:"#00B67A", borderRadius:"2px", display:"flex", alignItems:"center", justifyContent:"center" }}>
+                  <Star size={10} style={{ color:"#FFF", fill:"#FFF" }} />
+                </div>
+              ))}
+            </div>
+            <span style={{ color:"#475569", fontSize:"12px", fontWeight:500 }}>5.0 · Excellent</span>
+          </a>
         </motion.div>
 
         <div style={{ display:"grid", gridTemplateColumns:"repeat(3,1fr)", gap:"24px" }} className="testi-grid">

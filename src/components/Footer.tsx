@@ -23,6 +23,7 @@ const footerLinks = {
     { label: "Privacy Policy", href: "/privacy-policy" },
     { label: "Terms of Service", href: "/terms" },
     { label: "Cookie Policy", href: "/cookies" },
+    { label: "Return & Refund Policy", href: "/return-refund" },
   ],
 };
 
@@ -118,11 +119,12 @@ export default function Footer() {
               MySocialCrux is a brand operated by MEILLEURE PROMOTIONS SERVICES PRIVATE LIMITED
             </p>
           </div>
-          <div style={{ display: "flex", gap: "24px" }}>
+          <div style={{ display: "flex", gap: "24px", flexWrap: "wrap" }}>
             {[
               { label: "Privacy Policy", href: "/privacy-policy" },
               { label: "Terms of Use", href: "/terms" },
               { label: "Cookie Policy", href: "/cookies" },
+              { label: "Refund Policy", href: "/return-refund" },
             ].map((item) => (
               <Link key={item.label} href={item.href} style={{ color: "#6B7280", fontSize: "12px", textDecoration: "none" }}>
                 {item.label}
