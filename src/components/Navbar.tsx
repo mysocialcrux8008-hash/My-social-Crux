@@ -37,9 +37,10 @@ export default function Navbar() {
   const navStyle: React.CSSProperties = {
     position: "fixed", top: 0, left: 0, right: 0, zIndex: 1000,
     transition: "all 0.4s ease",
-    background: scrolled ? "rgba(0,0,0,0.85)" : "transparent",
-    backdropFilter: scrolled ? "blur(20px)" : "none",
-    borderBottom: scrolled ? "1px solid rgba(255,255,255,0.08)" : "none",
+    background: "#FFFFFF",
+    backdropFilter: "none",
+    borderBottom: "1px solid #E5E7EB",
+    boxShadow: scrolled ? "0 2px 16px rgba(0,0,0,0.08)" : "0 1px 4px rgba(0,0,0,0.05)",
   };
 
   return (
@@ -66,7 +67,7 @@ export default function Navbar() {
             <div ref={megaRef} style={{ display: "flex", alignItems: "center", gap: "4px" }} className="desktop-nav">
               <Link href="/" style={{
                 padding: "8px 14px", borderRadius: "8px",
-                color: "#D1D5DB", fontSize: "14px", fontWeight: 500,
+                color: "#111827", fontSize: "14px", fontWeight: 500,
                 textDecoration: "none", transition: "color 0.2s",
               }}>
                 Home
@@ -77,11 +78,11 @@ export default function Navbar() {
                 style={{
                   display: "flex", alignItems: "center", gap: "4px",
                   padding: "8px 14px", borderRadius: "8px", border: "none",
-                  background: "transparent", color: "#D1D5DB", fontSize: "14px",
+                  background: "transparent", color: "#111827", fontSize: "14px",
                   fontWeight: 500, cursor: "pointer",
                   transition: "color 0.2s, background 0.2s",
                 }}
-                onMouseLeave={(e) => { (e.target as HTMLButtonElement).style.color = "#D1D5DB"; }}
+                onMouseLeave={(e) => { (e.target as HTMLButtonElement).style.color = "#111827"; }}
               >
                 Services
                 <ChevronDown size={13} style={{ transition: "transform 0.3s", transform: megaOpen ? "rotate(180deg)" : "rotate(0deg)" }} />
@@ -94,7 +95,7 @@ export default function Navbar() {
               ].map((link) => (
                 <Link key={link.label} href={link.href} style={{
                   padding: "8px 14px", borderRadius: "8px",
-                  color: "#D1D5DB", fontSize: "14px", fontWeight: 500,
+                  color: "#111827", fontSize: "14px", fontWeight: 500,
                   textDecoration: "none", transition: "color 0.2s",
                 }}>
                   {link.label}
@@ -124,7 +125,7 @@ export default function Navbar() {
             {/* Mobile toggle */}
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
-              style={{ background: "none", border: "none", color: "#fff", cursor: "pointer", padding: "8px" }}
+              style={{ background: "none", border: "none", color: "#111827", cursor: "pointer", padding: "8px" }}
               className="mobile-menu-btn"
             >
               {mobileOpen ? <X size={24} /> : <Menu size={24} />}

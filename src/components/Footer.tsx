@@ -37,7 +37,7 @@ const socials = [
 
 export default function Footer() {
   return (
-    <footer style={{ background: "#0B0F19", borderTop: "1px solid rgba(255,255,255,0.08)" }}>
+    <footer style={{ background: "#FFFFFF", borderTop: "1px solid #E5E7EB" }}>
       <div style={{ maxWidth: "1280px", margin: "0 auto", padding: "80px 32px 40px" }}>
         <div style={{ display: "grid", gridTemplateColumns: "2fr 1fr 1fr 1fr", gap: "48px" }} className="footer-grid">
           {/* Brand */}
@@ -49,12 +49,12 @@ export default function Footer() {
                 style={{ height: "52px", width: "auto", display: "block" }}
               />
             </Link>
-            <p style={{ color: "#9CA3AF", fontSize: "14px", lineHeight: 1.7, marginBottom: "8px", maxWidth: "280px" }}>
+            <p style={{ color: "#374151", fontSize: "14px", lineHeight: 1.7, marginBottom: "8px", maxWidth: "280px" }}>
               A premium digital marketing agency helping ambitious brands scale their social presence, dominate search rankings, and drive real revenue growth.
             </p>
             <p style={{ color: "#6B7280", fontSize: "11px", lineHeight: 1.6, marginBottom: "24px", maxWidth: "280px" }}>
               Owned &amp; operated by<br />
-              <span style={{ color: "#9CA3AF", fontWeight: 600 }}>MEILLEURE PROMOTIONS SERVICES PRIVATE LIMITED</span>
+              <span style={{ color: "#374151", fontWeight: 600 }}>MEILLEURE PROMOTIONS SERVICES PRIVATE LIMITED</span>
             </p>
             <div style={{ display: "flex", flexDirection: "column", gap: "10px", marginBottom: "24px" }}>
               {[
@@ -62,7 +62,7 @@ export default function Footer() {
                 { icon: Phone, text: "+91 72299 23456", href: "tel:+917229923456" },
                 { icon: MapPin, text: "E-42, Anand Puri, Adarsh Nagar, Jaipur 302004", href: "https://maps.google.com/?q=E-42+Anand+Puri+Adarsh+Nagar+Jaipur" },
               ].map((item) => (
-                <a key={item.text} href={item.href} style={{ display: "flex", alignItems: "center", gap: "10px", color: "#9CA3AF", fontSize: "13px", textDecoration: "none" }}>
+                <a key={item.text} href={item.href} style={{ display: "flex", alignItems: "center", gap: "10px", color: "#374151", fontSize: "13px", textDecoration: "none" }}>
                   <item.icon size={13} style={{ color: "#FF3EA5", flexShrink: 0 }} />
                   {item.text}
                 </a>
@@ -72,11 +72,11 @@ export default function Footer() {
               {socials.map((s) => (
                 <a key={s.label} href={s.href} aria-label={s.label} target="_blank" rel="noopener noreferrer" style={{
                   width: "36px", height: "36px", borderRadius: "8px",
-                  background: "rgba(255,255,255,0.06)", border: "1px solid rgba(255,255,255,0.08)",
+                  background: "#F3F4F6", border: "1px solid #E5E7EB",
                   display: "flex", alignItems: "center", justifyContent: "center",
                   transition: "background 0.2s",
                 }}>
-                  <s.icon size={15} style={{ color: "#9CA3AF" }} />
+                  <s.icon size={15} style={{ color: "#374151" }} />
                 </a>
               ))}
             </div>
@@ -85,13 +85,13 @@ export default function Footer() {
           {/* Link columns */}
           {Object.entries(footerLinks).map(([title, links]) => (
             <div key={title}>
-              <h4 style={{ color: "#FFFFFF", fontWeight: 600, fontSize: "12px", textTransform: "uppercase", letterSpacing: "0.1em", marginBottom: "20px" }}>
+              <h4 style={{ color: "#111827", fontWeight: 600, fontSize: "12px", textTransform: "uppercase", letterSpacing: "0.1em", marginBottom: "20px" }}>
                 {title}
               </h4>
               <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "10px" }}>
                 {links.map((link) => (
                   <li key={link.label}>
-                    <Link href={link.href} style={{ color: "#9CA3AF", fontSize: "13px", textDecoration: "none", display: "flex", alignItems: "center", gap: "4px" }}>
+                    <Link href={link.href} style={{ color: "#374151", fontSize: "13px", textDecoration: "none", display: "flex", alignItems: "center", gap: "4px" }}>
                       {link.label}
                     </Link>
                   </li>
@@ -105,7 +105,7 @@ export default function Footer() {
       </div>
 
       {/* Bottom bar */}
-      <div style={{ borderTop: "1px solid rgba(255,255,255,0.05)", background: "rgba(0,0,0,0.4)" }}>
+      <div style={{ borderTop: "1px solid #E5E7EB", background: "#F9FAFB" }}>
         <div style={{
           maxWidth: "1280px", margin: "0 auto", padding: "18px 32px",
           display: "flex", alignItems: "center", justifyContent: "space-between",
@@ -115,7 +115,7 @@ export default function Footer() {
             <p style={{ color: "#6B7280", fontSize: "12px", marginBottom: "2px" }}>
               © 2026 MEILLEURE PROMOTIONS SERVICES PRIVATE LIMITED. All Rights Reserved.
             </p>
-            <p style={{ color: "#4B5563", fontSize: "11px" }}>
+            <p style={{ color: "#9CA3AF", fontSize: "11px" }}>
               MySocialCrux is a brand operated by MEILLEURE PROMOTIONS SERVICES PRIVATE LIMITED
             </p>
           </div>
