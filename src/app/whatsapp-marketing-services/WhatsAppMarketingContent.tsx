@@ -60,9 +60,9 @@ const data: ServicePageData = {
     { num: "04", title: "Optimize & Scale",     desc: "Weekly A/B testing, campaign optimization, and scaling successful sequences to maximize revenue from every subscriber.", color: "#00D084", duration: "Ongoing" },
   ],
   testimonials: [
-    { name: "Emma Thompson",   role: "Head of Growth, StartupX",    text: "Our WhatsApp broadcast campaign generated $48K in revenue in 72 hours with a single message to 12,000 subscribers. The 98% open rate is real — nothing else comes close.", metric: "$48K in 72 Hours",  avatar: "ET", color: "#25D366" },
-    { name: "Marcus Williams", role: "CMO, FitLife Brand",           text: "The abandoned cart recovery sequence MySocialCrux built recovers 28% of our abandoned carts automatically. That's $22K in additional monthly revenue we were leaving on the table.", metric: "+$22K/Month",      avatar: "MW", color: "#128C7E" },
-    { name: "Priya Sharma",    role: "Founder, LuxeStyle Co.",       text: "We switched from email to WhatsApp for our product launches. Our open rate went from 18% to 96% and our launch revenue doubled. WhatsApp marketing is a complete game-changer.", metric: "2x Launch Revenue", avatar: "PS", color: "#00A3FF" },
+    { name: "Minakshi Digwal",   role: "Verified Trustpilot Review · India", text: "I have used My Social Crux services multiple times and they always deliver exactly what they promise. The support is professional, fast, and very helpful.", metric: "Excellent Service",   avatar: "MD", color: "#25D366" },
+    { name: "Taron",             role: "Verified Trustpilot Review · US",    text: "There is no other marketing company in the world that does what they do. They get beyond a 100/100. Their work and service is excellent.", metric: "100/100 Rating",      avatar: "TA", color: "#128C7E" },
+    { name: "Aakash Singh",      role: "Verified Trustpilot Review · India", text: "The service worked better than I expected. Everything was delivered on time and the quality was good. If you're looking for real growth, this is a reliable option.", metric: "Worth the Money",    avatar: "AS", color: "#00A3FF" },
   ],
   faqs: [
     { q: "Is WhatsApp marketing legal?",                    a: "Yes, when done correctly. We use only opt-in subscriber lists — people who have explicitly agreed to receive messages from your brand. All campaigns are fully compliant with WhatsApp Business API policies and GDPR regulations." },

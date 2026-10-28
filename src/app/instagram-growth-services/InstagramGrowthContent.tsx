@@ -39,9 +39,9 @@ const stats = [
 ];
 
 const testimonials = [
-  { name: "Sarah Mitchell", role: "CEO, TechVenture Inc.", text: "Grew from 2K to 85K followers in just 4 months. The engagement is incredible — these are real people who actually buy from us.", metric: "+4,150%", avatar: "SM", color: "#FF3EA5" },
-  { name: "Priya Sharma", role: "Founder, LuxeStyle Co.", text: "MySocialCrux's Instagram strategy completely transformed our brand. We went from invisible to industry leader in under 6 months.", metric: "+2,800%", avatar: "PS", color: "#FF6B00" },
-  { name: "Marcus Williams", role: "CMO, FitLife Brand", text: "The Reels strategy alone got us 2M+ views in the first month. Our sales directly from Instagram tripled.", metric: "2M+ Views", avatar: "MW", color: "#8B5CF6" },
+  { name: "Minakshi Digwal", role: "Verified Trustpilot Review · India", text: "I have used My Social Crux services multiple times and they always deliver exactly what they promise. The support is professional, fast, and very helpful. Highly recommend for social media growth.", metric: "Excellent Service", avatar: "MD", color: "#FF3EA5" },
+  { name: "Vince Lauria", role: "Verified Trustpilot Review · US", text: "Great work! It is really helping build my channel. Very friendly and helpful.", metric: "Channel Growth", avatar: "VL", color: "#FF6B00" },
+  { name: "Lamaron Chiles", role: "Verified Trustpilot Review · US", text: "The consistency is top tier. Fast and reliable. Communication is great. Very professional. Would definitely recommend.", metric: "Top Tier Service", avatar: "LC", color: "#8B5CF6" },
 ];
 
 const faqs = [

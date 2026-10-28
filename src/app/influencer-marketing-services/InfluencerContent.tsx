@@ -60,9 +60,9 @@ const data: ServicePageData = {
     { num: "06", title: "Campaign Report",      desc: "Results and next steps — a full wrap-up report with views, reach, engagement, and actionable learnings for future campaigns.", color: "#FF3EA5", duration: "Step 6" },
   ],
   testimonials: [
-    { name: "Sarah Mitchell",  role: "CEO, TechVenture Inc.",        text: "MySocialCrux's influencer campaign got our product in front of 2.4 million targeted users in 2 weeks. Our sales tripled during the campaign period. Incredible targeting and execution.", metric: "3x Sales Spike",      avatar: "SM", color: "#FF3EA5" },
-    { name: "Marcus Williams", role: "CMO, FitLife Brand",           text: "The nano and micro creator strategy they built for us delivered an 8.5x ROI. The authentic content those creators made resonated far better than any ad we've ever run.", metric: "8.5x ROI",            avatar: "MW", color: "#8B5CF6" },
-    { name: "Emma Thompson",   role: "Head of Growth, StartupX",     text: "Working with MySocialCrux on influencer marketing was seamless. They handled everything from finding creators to final reporting. Our brand awareness grew 400% in 30 days.", metric: "+400% Awareness",   avatar: "ET", color: "#FF6B00" },
+    { name: "Minakshi Digwal",   role: "Verified Trustpilot Review · India", text: "I have used My Social Crux services multiple times and they always deliver exactly what they promise. The support is professional, fast, and very helpful. Highly recommend for social media growth.", metric: "Excellent Service",   avatar: "MD", color: "#FF3EA5" },
+    { name: "Taron",             role: "Verified Trustpilot Review · US",    text: "There is no other marketing company in the world that does what they do. They get beyond a 100/100. Their work and service is excellent.", metric: "100/100 Rating",      avatar: "TA", color: "#8B5CF6" },
+    { name: "Aakash Singh",      role: "Verified Trustpilot Review · India", text: "The service worked better than I expected. Everything was delivered on time and the quality was good. If you're looking for real growth, this is a reliable option.", metric: "Worth the Money",    avatar: "AS", color: "#FF6B00" },
   ],
   faqs: [
     { q: "How do you choose which creators to work with?",       a: "We select creators based on real view performance — not follower count. We look at median Reel views, cost per 1,000 views, consistency of performance, and how well their audience matches your target customer." },

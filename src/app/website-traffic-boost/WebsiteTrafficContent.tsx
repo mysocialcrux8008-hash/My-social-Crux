@@ -60,9 +60,9 @@ const data: ServicePageData = {
     { num: "04", title: "Scale & Report",   desc: "Weekly reports, continuous optimization, and scaling the highest-performing channels to maximize your monthly traffic and revenue.", color: "#00D084", duration: "Ongoing" },
   ],
   testimonials: [
-    { name: "James Rodriguez", role: "Marketing Director, BrandForge",  text: "MySocialCrux boosted our website traffic from 12K to 49K monthly visitors in 6 months. Our organic revenue tripled and we now rank #1 for 23 of our target keywords.", metric: "+312% Traffic",   avatar: "JR", color: "#FF6B00" },
-    { name: "Sarah Mitchell",  role: "CEO, TechVenture Inc.",            text: "The multi-channel traffic strategy drove 180K visitors in our first month of working together. Our conversion rate went from 1.2% to 4.8% with their CRO work.", metric: "180K Visitors/mo", avatar: "SM", color: "#E55A00" },
-    { name: "David Chen",      role: "CMO, NexaGrowth",                  text: "The influencer traffic campaign alone brought 45,000 highly targeted visitors in 30 days. Our cost-per-acquisition dropped by 65% compared to our previous agency.", metric: "-65% CPA",         avatar: "DC", color: "#00A3FF" },
+    { name: "Aakash Singh",      role: "Verified Trustpilot Review · India", text: "The service worked better than I expected. Everything was delivered on time and the quality was good. If you're looking for real growth, this is a reliable option.", metric: "Worth the Money",    avatar: "AS", color: "#FF6B00" },
+    { name: "Mike",              role: "Verified Trustpilot Review · US",    text: "Awesome service! Truly professional and genuine services related to the social media needs.", metric: "Highly Recommended",  avatar: "MI", color: "#E55A00" },
+    { name: "Sitaram Meena",     role: "Verified Trustpilot Review · India", text: "Thanks for supporting my social crux. Great experience working with the team — prompt, professional and delivered as promised.", metric: "Delivered as Promised", avatar: "SM", color: "#00A3FF" },
   ],
   faqs: [
     { q: "How quickly will I see traffic growth?",       a: "Paid traffic campaigns can deliver results within 24–48 hours of launch. SEO and content marketing typically show significant results within 30–60 days, with compounding growth over time." },

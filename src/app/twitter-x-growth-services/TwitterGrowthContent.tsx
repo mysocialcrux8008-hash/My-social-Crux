@@ -60,9 +60,9 @@ const data: ServicePageData = {
     { num: "04", title: "Scale & Report",   desc: "Weekly reports, continuous optimization, and scaling viral content to maximize your monthly follower and impression growth.", color: "#00D084", duration: "Ongoing" },
   ],
   testimonials: [
-    { name: "Alex Morgan",     role: "CEO, MySocialCrux",          text: "Our Twitter X account went from 800 to 42K followers in 3 months. One thread went viral with 2M impressions and brought in 8,000 followers in a single day.", metric: "+5,200%", avatar: "AM", color: "#1DA1F2" },
-    { name: "James Rodriguez", role: "Marketing Director, BrandForge", text: "The viral thread strategy alone generated 500K+ impressions in the first month. Our brand awareness on Twitter X is now unmatched in our industry.", metric: "500K+ Impr.", avatar: "JR", color: "#0D8BD9" },
-    { name: "Priya Sharma",    role: "Founder, LuxeStyle Co.",     text: "MySocialCrux turned our dormant Twitter account into our #1 traffic source. We get 10,000+ website visits per month directly from Twitter X now.", metric: "10K+ Visits/mo", avatar: "PS", color: "#00A3FF" },
+    { name: "Cristiano Petrovitz", role: "Verified Trustpilot Review · US",  text: "They are helping me grow my interest media! Very satisfied with the results and the team's support throughout the process.", metric: "Real Growth",         avatar: "CP", color: "#1DA1F2" },
+    { name: "Lamaron Chiles",    role: "Verified Trustpilot Review · US",    text: "The consistency is top tier. Fast and reliable. Communication is great. Very professional. Would definitely recommend.", metric: "Top Tier Service",    avatar: "LC", color: "#0D8BD9" },
+    { name: "Mike",              role: "Verified Trustpilot Review · US",    text: "Awesome service! Truly professional and genuine services related to the social media needs.", metric: "Highly Recommended",  avatar: "MI", color: "#00A3FF" },
   ],
   faqs: [
     { q: "How quickly will I see results?",         a: "Most clients see measurable follower growth within the first 7–14 days. Significant results (1,000+ new followers) typically happen within the first 30 days, with viral content potentially delivering thousands in a single day." },

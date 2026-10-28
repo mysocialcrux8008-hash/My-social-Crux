@@ -60,9 +60,9 @@ const data: ServicePageData = {
     { num: "04", title: "Global Distribution", desc: "We distribute to 200+ publications simultaneously. Most go live within 48 hours. Full coverage report delivered within 72 hours.", color: "#00D084", duration: "Day 5–7" },
   ],
   testimonials: [
-    { name: "David Chen",      role: "CMO, NexaGrowth",               text: "MySocialCrux got us featured in Forbes, TechCrunch, and 200+ publications for our Series A announcement. The credibility it built helped us close our funding round faster.", metric: "200+ Publications", avatar: "DC", color: "#8B5CF6" },
-    { name: "Sarah Mitchell",  role: "CEO, TechVenture Inc.",          text: "Our product launch press release generated 2.4M impressions and 180 high-authority backlinks. Our domain authority jumped from 22 to 48 in 60 days.", metric: "180 Backlinks",      avatar: "SM", color: "#6D28D9" },
-    { name: "Emma Thompson",   role: "Head of Growth, StartupX",       text: "Being featured in Business Insider and Entrepreneur completely transformed how investors and partners perceive our brand. We closed 3 major partnerships within 30 days of publication.", metric: "3 Partnerships",    avatar: "ET", color: "#FF6B00" },
+    { name: "Vince Lauria",      role: "Verified Trustpilot Review · US",    text: "Great work! It is really helping build my channel. Very friendly and helpful.", metric: "Channel Growth",      avatar: "VL", color: "#8B5CF6" },
+    { name: "Taron",             role: "Verified Trustpilot Review · US",    text: "There is no other marketing company in the world that does what they do. They get beyond a 100/100. Their work and service is excellent.", metric: "100/100 Rating",      avatar: "TA", color: "#6D28D9" },
+    { name: "Sitaram Meena",     role: "Verified Trustpilot Review · India", text: "Thanks for supporting my social crux. Great experience working with the team — prompt, professional and delivered as promised.", metric: "Delivered as Promised", avatar: "SM", color: "#FF6B00" },
   ],
   faqs: [
     { q: "Which publications will my press release appear in?",  a: "Your press release will be distributed to our network of 200+ publications including Forbes, TechCrunch, Business Insider, Entrepreneur, AP News, PR Newswire, Globe Newswire, and hundreds of industry-specific and regional outlets." },

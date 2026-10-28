@@ -278,13 +278,9 @@ export default function ServicePageTemplate({ d }: { d: ServicePageData }) {
                 whileHover={{ y:-6, boxShadow:`0 20px 60px ${t.color}15` }}
                 style={{ background:"#FFFFFF", borderRadius:"20px", padding:"32px", border:"1px solid #E2E8F0", transition:"all 0.3s", display:"flex", flexDirection:"column" }}>
                 <div style={{ display:"flex", gap:"3px", marginBottom:"18px" }}>
-                  {[1,2,3,4,5].map(j => <Star key={j} size={14} style={{ color:"#FBBF24", fill:"#FBBF24" }} />)}
+                  {[1,2,3,4,5].map(j => <Star key={j} size={14} style={{ color:"#00B67A", fill:"#00B67A" }} />)}
                 </div>
                 <p style={{ color:"#334155", fontSize:"15px", lineHeight:1.7, flex:1, marginBottom:"20px" }}>&ldquo;{t.text}&rdquo;</p>
-                <div style={{ display:"inline-flex", alignItems:"center", gap:"8px", padding:"8px 16px", borderRadius:"999px", background:t.color+"10", border:`1px solid ${t.color}25`, marginBottom:"20px", alignSelf:"flex-start" }}>
-                  <TrendingUp size={12} style={{ color:t.color }} />
-                  <span style={{ fontFamily:"'Sora',sans-serif", fontSize:"16px", fontWeight:900, color:t.color }}>{t.metric}</span>
-                </div>
                 <div style={{ display:"flex", alignItems:"center", gap:"12px", paddingTop:"18px", borderTop:"1px solid #F1F5F9" }}>
                   <div style={{ width:"40px", height:"40px", borderRadius:"50%", background:`linear-gradient(135deg,${t.color},${t.color}80)`, display:"flex", alignItems:"center", justifyContent:"center", fontSize:"13px", fontWeight:700, color:"#fff", flexShrink:0 }}>{t.avatar}</div>
                   <div>

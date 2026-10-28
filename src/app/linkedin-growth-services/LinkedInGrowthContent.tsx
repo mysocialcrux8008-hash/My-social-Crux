@@ -60,9 +60,9 @@ const data: ServicePageData = {
     { num: "04", title: "Scale & Report",    desc: "Weekly reports, continuous optimization, and scaling what works to maximize your monthly connection and follower growth.", color: "#00D084", duration: "Ongoing" },
   ],
   testimonials: [
-    { name: "David Chen",      role: "CMO, NexaGrowth",            text: "Our LinkedIn company page grew from 1.2K to 45K followers in 4 months. We raised our Series A funding largely thanks to the credibility MySocialCrux built for us.", metric: "+3,650%", avatar: "DC", color: "#0A66C2" },
-    { name: "Sarah Mitchell",  role: "CEO, TechVenture Inc.",       text: "The LinkedIn strategy generated 200+ qualified B2B leads in the first 60 days. Our pipeline grew by $2M. This is the best marketing investment we've ever made.", metric: "200+ Leads", avatar: "SM", color: "#004182" },
-    { name: "Emma Thompson",   role: "Head of Growth, StartupX",    text: "MySocialCrux turned our LinkedIn into a lead generation machine. We went from zero presence to being recognized as thought leaders in our industry.", metric: "+2,800%", avatar: "ET", color: "#00A3FF" },
+    { name: "Lamaron Chiles",    role: "Verified Trustpilot Review · US",    text: "The consistency is top tier. Fast and reliable. Communication is great. Very professional. Would definitely recommend.", metric: "Top Tier Service",    avatar: "LC", color: "#0A66C2" },
+    { name: "Minakshi Digwal",   role: "Verified Trustpilot Review · India", text: "I have used My Social Crux services multiple times and they always deliver exactly what they promise. The support is professional, fast, and very helpful.", metric: "Excellent Service",   avatar: "MD", color: "#004182" },
+    { name: "Cristiano Petrovitz", role: "Verified Trustpilot Review · US",  text: "They are helping me grow my interest media! Very satisfied with the results and the team's support throughout the process.", metric: "Real Growth",         avatar: "CP", color: "#00A3FF" },
   ],
   faqs: [
     { q: "How quickly will I see results?",          a: "Most clients see measurable connection and follower growth within the first 7–14 days. Significant results (500+ new connections) typically happen within the first 30 days." },

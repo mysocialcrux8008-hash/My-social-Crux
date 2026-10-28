@@ -60,9 +60,9 @@ const data: ServicePageData = {
     { num: "04", title: "Scale & Report",   desc: "Weekly reports, continuous optimization, and scaling what works to maximize your monthly member and engagement growth.", color: "#00D084", duration: "Ongoing" },
   ],
   testimonials: [
-    { name: "Alex Morgan",     role: "Crypto Channel Owner",          text: "Our Telegram channel went from 500 to 48K members in 3 months. The engagement is incredible — 72% of members read every message we send. Revenue from sponsorships tripled.", metric: "+9,500%", avatar: "AM", color: "#0088CC" },
-    { name: "David Chen",      role: "CMO, NexaGrowth",               text: "MySocialCrux grew our Telegram news channel to 100K members in 6 months. We now have the largest Telegram channel in our industry niche.", metric: "100K Members", avatar: "DC", color: "#006699" },
-    { name: "Sarah Mitchell",  role: "CEO, TechVenture Inc.",          text: "The cross-channel promotion strategy brought in 15,000 highly targeted members in the first month alone. Our Telegram is now our #1 revenue channel.", metric: "15K in Month 1", avatar: "SM", color: "#00A3FF" },
+    { name: "Vince Lauria",      role: "Verified Trustpilot Review · US",    text: "Great work! It is really helping build my channel. Very friendly and helpful.", metric: "Channel Growth",      avatar: "VL", color: "#0088CC" },
+    { name: "Taron",             role: "Verified Trustpilot Review · US",    text: "There is no other marketing company in the world that does what they do. They get beyond a 100/100. Their work and service is excellent.", metric: "100/100 Rating",      avatar: "TA", color: "#006699" },
+    { name: "Lamaron Chiles",    role: "Verified Trustpilot Review · US",    text: "The consistency is top tier. Fast and reliable. Communication is great. Very professional. Would definitely recommend.", metric: "Top Tier Service",    avatar: "LC", color: "#00A3FF" },
   ],
   faqs: [
     { q: "How quickly will I see results?",          a: "Most clients see measurable member growth within the first 7–14 days. Significant results (1,000+ new members) typically happen within the first 30 days, with cross-promotion campaigns delivering thousands in a single day." },

@@ -60,9 +60,9 @@ const data: ServicePageData = {
     { num: "04", title: "Scale & Report",   desc: "Weekly reports, continuous optimization, and scaling successful placements to maximize your monthly stream and follower growth.", color: "#00D084", duration: "Ongoing" },
   ],
   testimonials: [
-    { name: "Marcus Williams", role: "Independent Artist, Hip-Hop",   text: "MySocialCrux got my single placed on 47 Spotify playlists in the first month. I went from 500 monthly listeners to 280,000. My Spotify royalties now cover my studio costs.", metric: "280K Listeners", avatar: "MW", color: "#1DB954" },
-    { name: "Priya Sharma",    role: "Electronic Music Producer",      text: "The playlist pitching strategy got my track on a playlist with 2M followers. That single placement generated 800,000 streams in 30 days. Life-changing results.", metric: "800K Streams", avatar: "PS", color: "#158a3e" },
-    { name: "Alex Morgan",     role: "Singer-Songwriter",              text: "MySocialCrux's SoundCloud promotion tripled my plays and followers in 60 days. I got signed to an indie label directly because of the traction they built for me.", metric: "+300% Plays", avatar: "AM", color: "#00A3FF" },
+    { name: "Minakshi Digwal",   role: "Verified Trustpilot Review · India", text: "I have used My Social Crux services multiple times and they always deliver exactly what they promise. The support is professional, fast, and very helpful.", metric: "Excellent Service",   avatar: "MD", color: "#1DB954" },
+    { name: "Sitaram Meena",     role: "Verified Trustpilot Review · India", text: "Thanks for supporting my social crux. Great experience working with the team — prompt, professional and delivered as promised.", metric: "Delivered as Promised", avatar: "SM", color: "#158a3e" },
+    { name: "Eks",               role: "Verified Trustpilot Review · US",    text: "Awesome experience with the service. Highly recommend!!", metric: "Highly Recommended",  avatar: "EK", color: "#00A3FF" },
   ],
   faqs: [
     { q: "How quickly will I see stream growth?",        a: "Most artists see measurable stream growth within the first 7–14 days of campaign launch. Playlist placements can deliver thousands of streams within 24–48 hours of going live." },

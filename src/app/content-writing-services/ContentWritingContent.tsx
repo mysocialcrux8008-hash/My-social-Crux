@@ -60,9 +60,9 @@ const data: ServicePageData = {
     { num: "04", title: "Publish & Track",       desc: "Content published on schedule with monthly performance reports showing rankings, traffic, and conversion data.", color: "#00D084", duration: "Monthly" },
   ],
   testimonials: [
-    { name: "James Rodriguez", role: "Marketing Director, BrandForge",  text: "MySocialCrux's content team wrote 24 SEO articles for us in 3 months. 18 of them now rank on page 1 of Google. Our organic traffic grew by 280% and we're generating 60+ leads per month from content alone.", metric: "+280% Traffic",   avatar: "JR", color: "#F59E0B" },
-    { name: "Sarah Mitchell",  role: "CEO, TechVenture Inc.",            text: "The brand messaging framework they created completely transformed how we communicate our value. Our website conversion rate went from 1.9% to 5.8% after the copy rewrite.", metric: "+205% Conversions", avatar: "SM", color: "#D97706" },
-    { name: "Marcus Williams", role: "CMO, FitLife Brand",               text: "The social media content they write for us consistently gets 3–5x more engagement than what we were producing in-house. Our Instagram reach tripled in 60 days.", metric: "3x Engagement",     avatar: "MW", color: "#00A3FF" },
+    { name: "Taron",             role: "Verified Trustpilot Review · US",    text: "There is no other marketing company in the world that does what they do. They get beyond a 100/100. Their work and service is excellent.", metric: "100/100 Rating",      avatar: "TA", color: "#F59E0B" },
+    { name: "Lamaron Chiles",    role: "Verified Trustpilot Review · US",    text: "The consistency is top tier. Fast and reliable. Communication is great. Very professional. Would definitely recommend.", metric: "Top Tier Service",    avatar: "LC", color: "#D97706" },
+    { name: "Minakshi Digwal",   role: "Verified Trustpilot Review · India", text: "I have used My Social Crux services multiple times and they always deliver exactly what they promise. The support is professional, fast, and very helpful.", metric: "Excellent Service",   avatar: "MD", color: "#00A3FF" },
   ],
   faqs: [
     { q: "What types of content do you write?",           a: "We write everything — SEO blog articles, website copy, landing pages, social media content, email sequences, product descriptions, case studies, whitepapers, press releases, and brand messaging frameworks." },

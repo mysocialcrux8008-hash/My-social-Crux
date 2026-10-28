@@ -60,9 +60,9 @@ const data: ServicePageData = {
     { num: "04", title: "Launch & Optimize",     desc: "We launch your site, set up analytics, submit to Google, and monitor performance — then optimize based on real user data.", color: "#8B5CF6", duration: "Week 7+" },
   ],
   testimonials: [
-    { name: "Sarah Mitchell",  role: "CEO, TechVenture Inc.",       text: "MySocialCrux built our new website in 6 weeks. It loads in 0.9 seconds, ranks #1 for our main keywords, and our conversion rate went from 1.8% to 6.2%. Best investment we've made.", metric: "+244% Conversions", avatar: "SM", color: "#00D084" },
-    { name: "Marcus Williams", role: "CMO, FitLife Brand",          text: "The e-commerce site they built for us generated $180K in revenue in the first month. The UX is flawless and our cart abandonment rate dropped by 40%.", metric: "$180K Month 1",     avatar: "MW", color: "#00A3FF" },
-    { name: "Emma Thompson",   role: "Head of Growth, StartupX",    text: "Our old website had a 78% bounce rate. MySocialCrux rebuilt it and we're now at 32%. Organic traffic tripled in 90 days thanks to their SEO-first architecture.", metric: "-59% Bounce Rate",  avatar: "ET", color: "#FF6B00" },
+    { name: "Minakshi Digwal",   role: "Verified Trustpilot Review · India", text: "I have used My Social Crux services multiple times and they always deliver exactly what they promise. The support is professional, fast, and very helpful.", metric: "Excellent Service",   avatar: "MD", color: "#00D084" },
+    { name: "Cristiano Petrovitz", role: "Verified Trustpilot Review · US",  text: "They are helping me grow my interest media! Very satisfied with the results and the team's support throughout the process.", metric: "Real Growth",         avatar: "CP", color: "#00A3FF" },
+    { name: "Eks",               role: "Verified Trustpilot Review · US",    text: "Awesome experience with the service. Highly recommend!!", metric: "Highly Recommended",  avatar: "EK", color: "#FF6B00" },
   ],
   faqs: [
     { q: "How long does it take to build a website?",    a: "A standard business website takes 4–6 weeks from kickoff to launch. E-commerce sites typically take 6–10 weeks. We provide a detailed timeline at the start of every project." },

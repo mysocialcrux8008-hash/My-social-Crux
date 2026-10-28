@@ -60,9 +60,9 @@ const data: ServicePageData = {
     { num: "04", title: "Scale & Report",        desc: "Weekly reports with installs, CPI, retention, and ROAS. We scale winning campaigns and cut losers to maximize your budget efficiency.", color: "#00D084", duration: "Ongoing" },
   ],
   testimonials: [
-    { name: "Emma Thompson",   role: "Head of Growth, StartupX",    text: "MySocialCrux delivered 50,000 app installs in our first month at a CPI that was 62% below what our previous agency was charging. Our app hit #3 in the App Store charts.", metric: "50K Installs/Month", avatar: "ET", color: "#FF3EA5" },
-    { name: "David Chen",      role: "CMO, NexaGrowth",              text: "The TikTok app install campaign they ran went viral. We got 120,000 installs in 2 weeks at $0.38 CPI. Our app went from 500 to 150,000 users in 30 days.", metric: "$0.38 CPI",          avatar: "DC", color: "#8B5CF6" },
-    { name: "Marcus Williams", role: "CMO, FitLife Brand",           text: "Our fitness app was struggling at 2,000 monthly installs. MySocialCrux scaled us to 45,000 installs per month within 60 days. Our in-app purchase revenue grew 8x.", metric: "8x Revenue Growth",  avatar: "MW", color: "#00A3FF" },
+    { name: "Aakash Singh",      role: "Verified Trustpilot Review · India", text: "The service worked better than I expected. Everything was delivered on time and the quality was good. If you're looking for real growth, this is a reliable option.", metric: "Worth the Money",    avatar: "AS", color: "#FF3EA5" },
+    { name: "Cristiano Petrovitz", role: "Verified Trustpilot Review · US",  text: "They are helping me grow my interest media! Very satisfied with the results and the team's support throughout the process.", metric: "Real Growth",         avatar: "CP", color: "#8B5CF6" },
+    { name: "Minakshi Digwal",   role: "Verified Trustpilot Review · India", text: "I have used My Social Crux services multiple times and they always deliver exactly what they promise. The support is professional, fast, and very helpful.", metric: "Excellent Service",   avatar: "MD", color: "#00A3FF" },
   ],
   faqs: [
     { q: "What platforms do you run app install campaigns on?",  a: "We run campaigns across Meta (Facebook & Instagram), Google UAC (Search, Play Store, YouTube, Display), TikTok, Snapchat, Apple Search Ads, and programmatic DSP networks — covering every major channel where your target users spend time." },

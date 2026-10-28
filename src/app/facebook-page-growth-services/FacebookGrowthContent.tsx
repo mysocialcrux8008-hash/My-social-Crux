@@ -60,9 +60,9 @@ const data: ServicePageData = {
     { num: "04", title: "Scale & Report", desc: "Weekly reports, continuous optimization, and scaling what works to maximize your monthly page growth.", color: "#00D084", duration: "Ongoing" },
   ],
   testimonials: [
-    { name: "David Chen", role: "CMO, NexaGrowth", text: "Our Facebook page went from 3K to 78K followers in 5 months. The engagement is incredible — these are real people who actually buy from us.", metric: "+2,500%", avatar: "DC", color: "#1877F2" },
-    { name: "Emma Thompson", role: "Head of Growth, StartupX", text: "MySocialCrux's Facebook strategy completely transformed our brand presence. We went from invisible to industry leader in under 6 months.", metric: "+3,200%", avatar: "ET", color: "#0052CC" },
-    { name: "James Rodriguez", role: "Marketing Director, BrandForge", text: "The Facebook Ads strategy alone tripled our page growth rate. Our cost-per-follower dropped by 70% within the first month.", metric: "-70% CPA", avatar: "JR", color: "#00A3FF" },
+    { name: "Taron",           role: "Verified Trustpilot Review · US",     text: "There is no other marketing company in the world that does what they do. They get beyond a 100/100. Their work and service is excellent.", metric: "100/100 Rating",    avatar: "TA", color: "#1877F2" },
+    { name: "Mike",            role: "Verified Trustpilot Review · US",     text: "Awesome service! Truly professional and genuine services related to the social media needs.", metric: "Highly Recommended", avatar: "MI", color: "#0052CC" },
+    { name: "Aakash Singh",    role: "Verified Trustpilot Review · India",  text: "The service worked better than I expected. Everything was delivered on time and the quality was good. If you're looking for real growth, this is a reliable option.", metric: "Worth the Money", avatar: "AS", color: "#00D084" },
   ],
   faqs: [
     { q: "How quickly will I see results?", a: "Most clients see measurable page growth within the first 7–14 days. Significant results (1,000+ new followers) typically happen within the first 30 days." },

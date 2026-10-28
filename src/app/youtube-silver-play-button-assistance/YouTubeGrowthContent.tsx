@@ -60,9 +60,9 @@ const data: ServicePageData = {
     { num: "04", title: "Scale & Report",   desc: "Weekly reports, continuous optimization, and scaling what works to maximize your monthly subscriber and view growth.", color: "#00D084", duration: "Ongoing" },
   ],
   testimonials: [
-    { name: "Priya Sharma",    role: "Founder, LuxeStyle Co.",        text: "MySocialCrux's YouTube strategy helped us hit the Silver Play Button in just 8 months. We went from 8K to 100K subscribers and now earn $12K/month from AdSense alone.", metric: "100K in 8 Months", avatar: "PS", color: "#FF0000" },
-    { name: "Marcus Williams", role: "CMO, FitLife Brand",            text: "The YouTube SEO strategy got our videos ranking on page 1 for 23 competitive keywords. Our channel went from 500 to 45K subscribers in 4 months.", metric: "+8,900%", avatar: "MW", color: "#CC0000" },
-    { name: "Emma Thompson",   role: "Head of Growth, StartupX",      text: "The Shorts strategy alone brought in 2.1M views in our first month. We gained 18,000 subscribers from Shorts in 30 days. Absolutely incredible results.", metric: "2.1M Views/Month", avatar: "ET", color: "#FF6B00" },
+    { name: "Vince Lauria",      role: "Verified Trustpilot Review · US",    text: "Great work! It is really helping build my channel. Very friendly and helpful.", metric: "Channel Growth",      avatar: "VL", color: "#FF0000" },
+    { name: "Eks",               role: "Verified Trustpilot Review · US",    text: "Awesome experience with the service. Highly recommend!!", metric: "Highly Recommended",  avatar: "EK", color: "#CC0000" },
+    { name: "Sitaram Meena",     role: "Verified Trustpilot Review · India", text: "Thanks for supporting my social crux. Great experience working with the team — prompt, professional and delivered as promised.", metric: "Delivered as Promised", avatar: "SM", color: "#FF6B00" },
   ],
   faqs: [
     { q: "How long does it take to hit 100K subscribers?",  a: "It depends on your starting point, niche, and content quality. Our fastest client hit 100K in 8 months from scratch. Most clients see significant growth (10K+ new subscribers) within the first 60–90 days." },

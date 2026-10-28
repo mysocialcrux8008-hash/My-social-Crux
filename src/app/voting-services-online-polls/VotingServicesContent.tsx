@@ -60,9 +60,9 @@ const data: ServicePageData = {
     { num: "04", title: "Monitor & Complete", desc: "We monitor your vote count until the contest closes, topping up as needed to maintain your lead and ensure you win.", color: "#FF6B00", duration: "Until Win" },
   ],
   testimonials: [
-    { name: "Emma Thompson",   role: "Head of Growth, StartupX",    text: "We were trailing in a major industry award vote by 2,000 votes with 48 hours left. MySocialCrux delivered 5,000 votes in 24 hours and we won by a comfortable margin. Incredible service.", metric: "Award Won",          avatar: "ET", color: "#00A3FF" },
-    { name: "Marcus Williams", role: "Content Creator",              text: "I was in a Facebook contest for a $10,000 prize. MySocialCrux got me from 3rd place to 1st in 12 hours. The votes looked completely natural and I won the contest easily.", metric: "$10K Contest Won",  avatar: "MW", color: "#8B5CF6" },
-    { name: "Priya Sharma",    role: "Founder, LuxeStyle Co.",       text: "Our brand was nominated for a 'Best New Business' award. MySocialCrux's voting campaign secured us 15,000 votes and we won the award. The PR value was worth 100x the investment.", metric: "Best New Business",  avatar: "PS", color: "#00D084" },
+    { name: "Taron",             role: "Verified Trustpilot Review · US",    text: "There is no other marketing company in the world that does what they do. They get beyond a 100/100. Their work and service is excellent.", metric: "100/100 Rating",      avatar: "TA", color: "#FF3EA5" },
+    { name: "Lamaron Chiles",    role: "Verified Trustpilot Review · US",    text: "The consistency is top tier. Fast and reliable. Communication is great. Very professional. Would definitely recommend.", metric: "Top Tier Service",    avatar: "LC", color: "#8B5CF6" },
+    { name: "Mike",              role: "Verified Trustpilot Review · US",    text: "Awesome service! Truly professional and genuine services related to the social media needs.", metric: "Highly Recommended",  avatar: "MI", color: "#00D084" },
   ],
   faqs: [
     { q: "What types of contests and polls do you support?",    a: "We support virtually all online voting platforms — Facebook contests, Instagram polls, Twitter polls, LinkedIn polls, dedicated contest websites, award nomination platforms, reality show voting, and custom website polls." },

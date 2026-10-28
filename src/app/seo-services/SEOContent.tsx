@@ -60,9 +60,9 @@ const data: ServicePageData = {
     { num: "04", title: "Rank & Scale",      desc: "Weekly ranking reports, continuous optimization, and scaling successful strategies to dominate more keywords every month.", color: "#FF6B00", duration: "Ongoing" },
   ],
   testimonials: [
-    { name: "James Rodriguez", role: "Marketing Director, BrandForge",  text: "MySocialCrux ranked us #1 for 23 of our target keywords in 6 months. Our organic traffic went from 1,200 to 4,900 monthly visitors. Revenue from organic search tripled.", metric: "+312% Traffic",   avatar: "JR", color: "#00A3FF" },
-    { name: "Sarah Mitchell",  role: "CEO, TechVenture Inc.",            text: "Our Google My Business profile now shows up in the top 3 for every local search in our area. We get 40+ qualified leads per month directly from Google Maps.", metric: "40+ Leads/Month",  avatar: "SM", color: "#0066CC" },
-    { name: "David Chen",      role: "CMO, NexaGrowth",                  text: "We went from page 4 to page 1 for our most competitive keyword in just 4 months. The ROI on SEO is 10x better than our paid ads. MySocialCrux is the real deal.", metric: "Page 4 → Page 1", avatar: "DC", color: "#00D084" },
+    { name: "Mike",              role: "Verified Trustpilot Review · US",    text: "Awesome service! Truly professional and genuine services related to the social media needs.", metric: "Highly Recommended",  avatar: "MI", color: "#00A3FF" },
+    { name: "Aakash Singh",      role: "Verified Trustpilot Review · India", text: "The service worked better than I expected. Everything was delivered on time and the quality was good. If you're looking for real growth, this is a reliable option.", metric: "Worth the Money",    avatar: "AS", color: "#0066CC" },
+    { name: "Eks",               role: "Verified Trustpilot Review · US",    text: "Awesome experience with the service. Highly recommend!!", metric: "Highly Recommended",  avatar: "EK", color: "#00D084" },
   ],
   faqs: [
     { q: "How long does SEO take to show results?",       a: "Most clients see measurable ranking improvements within 60–90 days. Significant page 1 rankings typically happen within 4–6 months. SEO is a long-term investment that compounds — the longer you invest, the greater the returns." },
