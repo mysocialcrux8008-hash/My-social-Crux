@@ -4,6 +4,8 @@ import LegalPage from "@/components/LegalPage";
 export const metadata: Metadata = {
   title: "Terms of Service | MySocialCrux",
   description: "MySocialCrux Terms of Service — the terms and conditions governing your use of our services.",
+  alternates: { canonical: "https://mysocialcrux.com/terms/" },
+  robots: { index: false, follow: false },
 };
 
 const sections = [

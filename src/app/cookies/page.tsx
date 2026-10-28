@@ -4,6 +4,8 @@ import LegalPage from "@/components/LegalPage";
 export const metadata: Metadata = {
   title: "Cookie Policy | MySocialCrux",
   description: "MySocialCrux Cookie Policy — how we use cookies and tracking technologies on our website.",
+  alternates: { canonical: "https://mysocialcrux.com/cookies/" },
+  robots: { index: false, follow: false },
 };
 
 const sections = [

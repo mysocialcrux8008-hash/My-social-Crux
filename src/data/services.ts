@@ -33,6 +33,7 @@ export const megaMenuCategories = [
     title: "Marketing & Promotions",
     color: "#00A3FF",
     services: [
+      { name: "Influencer Marketing Services", slug: "/influencer-marketing-services/", icon: "Users" },
       { name: "WhatsApp Marketing", slug: "/whatsapp-marketing-services/", icon: "MessageCircle" },
       { name: "App Install Campaigns", slug: "/app-install-campaigns-services/", icon: "Smartphone" },
       { name: "Voting Services & Online Polls", slug: "/voting-services-online-polls/", icon: "BarChart2" },

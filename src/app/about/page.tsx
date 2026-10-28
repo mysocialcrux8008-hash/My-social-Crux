@@ -8,6 +8,14 @@ import CTASection from "@/components/CTASection";
 export const metadata: Metadata = {
   title: "About MySocialCrux | Premium Digital Marketing Agency",
   description: "Learn about MySocialCrux — the premium digital marketing agency built for brands that refuse to stand still. Our story, mission, team, and values.",
+  keywords: ["about MySocialCrux", "digital marketing agency India", "Meilleure Promotions Services", "marketing agency team"],
+  alternates: { canonical: "https://mysocialcrux.com/about/" },
+  openGraph: {
+    title: "About MySocialCrux | Premium Digital Marketing Agency",
+    description: "Learn about MySocialCrux — built for brands that refuse to stand still. Our story, mission, team, and values.",
+    url: "https://mysocialcrux.com/about/",
+    images: [{ url: "/logo.png", width: 1200, height: 630, alt: "About MySocialCrux" }],
+  },
 };
 
 export default function AboutPage() {

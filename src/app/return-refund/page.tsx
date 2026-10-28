@@ -4,6 +4,8 @@ import LegalPage from "@/components/LegalPage";
 export const metadata: Metadata = {
   title: "Return & Refund Policy | MySocialCrux",
   description: "MySocialCrux Return & Refund Policy — understand our refund terms, eligibility, and process for all digital marketing services.",
+  alternates: { canonical: "https://mysocialcrux.com/return-refund/" },
+  robots: { index: false, follow: false },
 };
 
 const sections = [

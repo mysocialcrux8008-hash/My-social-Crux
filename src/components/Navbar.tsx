@@ -3,12 +3,12 @@
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, ChevronDown, ArrowRight, Instagram, Facebook, Linkedin, Twitter, Youtube, Send, Music, TrendingUp, Globe, Search, FileText, PenTool, MessageCircle, Smartphone, BarChart2 } from "lucide-react";
+import { Menu, X, ChevronDown, ArrowRight, Instagram, Facebook, Linkedin, Twitter, Youtube, Send, Music, TrendingUp, Globe, Search, FileText, PenTool, MessageCircle, Smartphone, BarChart2, Users } from "lucide-react";
 import { megaMenuCategories } from "@/data/services";
 
 const iconMap: Record<string, React.ElementType> = {
   Instagram, Facebook, Linkedin, Twitter, Youtube, Send, Music, TrendingUp,
-  Globe, Search, FileText, PenTool, MessageCircle, Smartphone, BarChart2,
+  Globe, Search, FileText, PenTool, MessageCircle, Smartphone, BarChart2, Users,
 };
 
 export default function Navbar() {

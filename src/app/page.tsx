@@ -14,8 +14,24 @@ import FAQSection from "@/components/FAQSection";
 import { homeFaqs } from "@/data/faqs";
 
 export const metadata: Metadata = {
-  title: "MySocialCrux | Premium Digital Marketing Agency USA",
-  description: "Scale your brand with MySocialCrux — the premium digital marketing agency trusted by 500+ brands.",
+  title: "MySocialCrux | Premium Digital Marketing Agency India",
+  description:
+    "Scale your brand with MySocialCrux — the premium digital marketing agency trusted by 500+ brands. Instagram, YouTube, SEO, influencer marketing & more.",
+  keywords: [
+    "digital marketing agency India",
+    "social media marketing",
+    "Instagram growth",
+    "SEO services",
+    "influencer marketing",
+    "MySocialCrux",
+  ],
+  alternates: { canonical: "https://mysocialcrux.com/" },
+  openGraph: {
+    title: "MySocialCrux | Premium Digital Marketing Agency India",
+    description: "Scale your brand with MySocialCrux — trusted by 500+ brands. Instagram, YouTube, SEO, influencer marketing & more.",
+    url: "https://mysocialcrux.com/",
+    images: [{ url: "/logo.png", width: 1200, height: 630, alt: "MySocialCrux" }],
+  },
 };
 
 export default function HomePage() {

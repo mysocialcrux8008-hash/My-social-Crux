@@ -4,6 +4,8 @@ import LegalPage from "@/components/LegalPage";
 export const metadata: Metadata = {
   title: "Privacy Policy | MySocialCrux",
   description: "MySocialCrux Privacy Policy — how we collect, use, and protect your personal information.",
+  alternates: { canonical: "https://mysocialcrux.com/privacy-policy/" },
+  robots: { index: false, follow: false },
 };
 
 const sections = [

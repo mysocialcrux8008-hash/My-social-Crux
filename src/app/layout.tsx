@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://mysocialcrux.com"),
   title: {
     default: "MySocialCrux | Premium Digital Marketing Agency | Meilleure Promotions Services Pvt Ltd",
     template: "%s | MySocialCrux",
@@ -15,14 +16,18 @@ export const metadata: Metadata = {
     "digital marketing agency India",
     "social media growth",
     "Instagram growth services",
-    "SEO services Jaipur",
+    "SEO services India",
     "YouTube growth",
     "press release services",
+    "influencer marketing agency",
     "MySocialCrux",
     "Meilleure Promotions Services",
   ],
   authors: [{ name: "Meilleure Promotions Services Private Limited" }],
   creator: "MySocialCrux — Meilleure Promotions Services Private Limited",
+  alternates: {
+    canonical: "https://mysocialcrux.com",
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -31,13 +36,26 @@ export const metadata: Metadata = {
     title: "MySocialCrux | Premium Digital Marketing Agency",
     description:
       "Scale your brand with MySocialCrux — operated by Meilleure Promotions Services Private Limited. Trusted by 500+ brands worldwide.",
+    images: [
+      {
+        url: "/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "MySocialCrux — Premium Digital Marketing Agency",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "MySocialCrux | Premium Digital Marketing Agency",
     description: "Scale your brand with MySocialCrux — trusted by 500+ brands worldwide.",
+    images: ["/logo.png"],
   },
-  robots: { index: true, follow: true },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large", "max-video-preview": -1 },
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
