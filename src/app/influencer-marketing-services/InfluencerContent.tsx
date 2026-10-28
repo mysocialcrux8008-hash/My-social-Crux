@@ -135,6 +135,23 @@ export default function InfluencerContent() {
             ))}
           </div>
 
+          {/* Custom package CTA */}
+          <motion.div
+            initial={{ opacity: 0, y: 16 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.35 }}
+            whileHover={{ y: -3, boxShadow: "0 16px 48px rgba(139,92,246,0.18)" }}
+            style={{ display: "flex", alignItems: "center", gap: "20px", padding: "22px 24px", borderRadius: "16px", background: "linear-gradient(135deg,#EDE9FE,#FAF5FF)", border: "2px dashed #8B5CF6", marginBottom: "12px", cursor: "pointer", transition: "all 0.25s" }}>
+            <div style={{ width: "52px", height: "52px", borderRadius: "14px", background: "linear-gradient(135deg,#8B5CF6,#A78BFA)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "24px", flexShrink: 0 }}>
+              🎛️
+            </div>
+            <div style={{ flex: 1 }}>
+              <div style={{ fontFamily: "'Sora',sans-serif", fontSize: "17px", fontWeight: 700, color: "#5B21B6" }}>Customise your package</div>
+              <div style={{ color: "#7C3AED", fontSize: "14px", marginTop: "3px" }}>1,000+ creators available • Build your own mix of creators & Reels</div>
+            </div>
+            <a href="/contact" style={{ textDecoration: "none", display: "inline-flex", alignItems: "center", gap: "6px", padding: "10px 20px", borderRadius: "8px", background: "linear-gradient(135deg,#8B5CF6,#7C3AED)", color: "#FFF", fontWeight: 700, fontSize: "13px", flexShrink: 0, whiteSpace: "nowrap" }}>
+              Get a Quote →
+            </a>
+          </motion.div>
+
           {/* Disclaimer note */}
           <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }}
             style={{ display: "flex", alignItems: "center", gap: "14px", padding: "18px 22px", borderRadius: "14px", background: "#EFF6FF", border: "1px solid #BFDBFE" }}>
